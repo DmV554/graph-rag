@@ -1,0 +1,189 @@
+03:34:52,851 graphrag.cli.index INFO Logging enabled at /home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/uftos_graphrag/logs/prompt-tune.log
+03:34:52,854 graphrag.index.input.factory INFO loading input from root_dir=input
+03:34:52,854 graphrag.index.input.factory INFO using file storage for input
+03:34:52,855 graphrag.index.input.csv INFO Loading csv files from input
+03:34:52,855 graphrag.storage.file_pipeline_storage INFO search /home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/uftos_graphrag/input for files matching unfair_tos_completo_con_texto\.csv
+03:34:52,940 graphrag.index.input.util INFO Found 1 InputFileType.csv files, loading 1
+03:34:52,940 graphrag.index.input.util INFO Total number of unfiltered InputFileType.csv rows: 7807
+03:35:03,567 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+03:35:03,896 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+03:35:04,787 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+03:35:07,519 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+03:35:10,798 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+03:35:16,262 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+03:35:21,24 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+03:35:24,221 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+03:35:28,712 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+03:35:30,617 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+03:35:30,621 graphrag.cli.index INFO Writing prompts to /home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/prompts
+03:35:30,622 graphrag.cli.index INFO Prompts written to /home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/prompts
+03:41:01,25 graphrag.cli.index INFO Logging enabled at /home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/uftos_graphrag/logs/prompt-tune.log
+03:41:01,27 graphrag.index.input.factory INFO loading input from root_dir=input
+03:41:01,28 graphrag.index.input.factory INFO using file storage for input
+03:41:01,28 graphrag.index.input.csv INFO Loading csv files from input
+03:41:01,29 graphrag.storage.file_pipeline_storage INFO search /home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/uftos_graphrag/input for files matching unfair_tos_completo_con_texto\.csv
+03:41:01,118 graphrag.index.input.util INFO Found 1 InputFileType.csv files, loading 1
+03:41:01,119 graphrag.index.input.util INFO Total number of unfiltered InputFileType.csv rows: 7807
+03:41:10,261 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+03:41:11,387 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+03:41:14,636 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+03:41:18,150 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+03:41:21,912 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+03:41:26,385 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+03:41:32,587 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+03:41:37,172 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+03:41:40,96 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+03:41:40,101 graphrag.cli.index INFO Writing prompts to /home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/uftos_graphrag/prompts_auto
+03:41:40,102 graphrag.cli.index INFO Prompts written to /home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/uftos_graphrag/prompts_auto
+21:43:53,442 graphrag.cli.index INFO Logging enabled at /home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/uftos_graphrag/logs/prompt-tune.log
+21:43:53,445 graphrag.index.input.factory INFO loading input from root_dir=input
+21:43:53,445 graphrag.index.input.factory INFO using file storage for input
+21:43:53,446 graphrag.index.input.csv INFO Loading csv files from input
+21:43:53,446 graphrag.storage.file_pipeline_storage INFO search /home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/uftos_graphrag/input for files matching unfair_tos_processed\.csv
+21:43:53,535 graphrag.index.input.util INFO Found 1 InputFileType.csv files, loading 1
+21:43:53,536 graphrag.index.input.util INFO Total number of unfiltered InputFileType.csv rows: 7807
+21:44:05,994 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+21:44:07,186 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+21:44:10,226 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+21:44:12,15 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+21:44:17,815 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+21:44:22,948 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+21:44:26,297 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+21:44:28,942 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+21:44:31,95 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+21:44:35,528 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+21:44:35,533 graphrag.cli.index INFO Writing prompts to /home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/uftos_graphrag/prompt_discover_entities
+21:44:35,534 graphrag.cli.index INFO Prompts written to /home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/uftos_graphrag/prompt_discover_entities
+21:45:58,31 graphrag.cli.index INFO Logging enabled at /home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/uftos_graphrag/logs/prompt-tune.log
+21:45:58,33 graphrag.index.input.factory INFO loading input from root_dir=input
+21:45:58,33 graphrag.index.input.factory INFO using file storage for input
+21:45:58,34 graphrag.index.input.csv INFO Loading csv files from input
+21:45:58,34 graphrag.storage.file_pipeline_storage INFO search /home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/uftos_graphrag/input for files matching unfair_tos_processed\.csv
+21:45:58,120 graphrag.index.input.util INFO Found 1 InputFileType.csv files, loading 1
+21:45:58,120 graphrag.index.input.util INFO Total number of unfiltered InputFileType.csv rows: 7807
+21:46:04,95 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+21:46:05,371 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+21:46:08,457 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+21:46:11,836 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+21:46:15,124 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+21:46:20,374 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+21:46:25,395 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+21:46:34,145 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+21:46:37,185 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+21:46:37,190 graphrag.cli.index INFO Writing prompts to /home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/uftos_graphrag/prompt_no_discover_entities
+21:46:37,191 graphrag.cli.index INFO Prompts written to /home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/uftos_graphrag/prompt_no_discover_entities
+21:58:14,653 graphrag.cli.index INFO Logging enabled at /home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/uftos_graphrag/logs/prompt-tune.log
+21:58:14,656 graphrag.index.input.factory INFO loading input from root_dir=input
+21:58:14,656 graphrag.index.input.factory INFO using file storage for input
+21:58:14,656 graphrag.index.input.csv INFO Loading csv files from input
+21:58:14,657 graphrag.storage.file_pipeline_storage INFO search /home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/uftos_graphrag/input for files matching unfair_tos_processed\.csv
+21:58:14,744 graphrag.index.input.util INFO Found 1 InputFileType.csv files, loading 1
+21:58:14,744 graphrag.index.input.util INFO Total number of unfiltered InputFileType.csv rows: 7807
+21:58:25,476 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+21:58:26,764 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+21:58:29,261 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+21:58:31,708 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+21:58:35,798 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+21:58:41,84 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+21:58:47,269 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+21:58:51,239 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+21:58:56,638 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+21:59:00,10 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+21:59:00,15 graphrag.cli.index INFO Writing prompts to /home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/uftos_graphrag/elpepe
+21:59:00,15 graphrag.cli.index INFO Prompts written to /home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/uftos_graphrag/elpepe
+22:01:11,800 graphrag.cli.index INFO Logging enabled at /home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/uftos_graphrag/logs/prompt-tune.log
+22:01:11,802 graphrag.index.input.factory INFO loading input from root_dir=input
+22:01:11,802 graphrag.index.input.factory INFO using file storage for input
+22:01:11,803 graphrag.index.input.csv INFO Loading csv files from input
+22:01:11,803 graphrag.storage.file_pipeline_storage INFO search /home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/uftos_graphrag/input for files matching unfair_tos_processed\.csv
+22:01:11,884 graphrag.index.input.util INFO Found 1 InputFileType.csv files, loading 1
+22:01:11,885 graphrag.index.input.util INFO Total number of unfiltered InputFileType.csv rows: 7807
+22:01:40,301 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+22:01:53,518 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+22:02:11,124 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+22:02:14,519 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+22:02:41,368 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+22:03:22,570 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+22:03:49,622 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+22:04:11,207 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+22:04:51,826 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+22:05:02,74 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+22:05:02,83 graphrag.cli.index INFO Writing prompts to /home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/uftos_graphrag/elpepe
+22:05:02,83 graphrag.cli.index INFO Prompts written to /home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/uftos_graphrag/elpepe
+22:11:51,75 graphrag.cli.index INFO Logging enabled at /home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/uftos_graphrag/logs/prompt-tune.log
+22:11:51,77 graphrag.index.input.factory INFO loading input from root_dir=input
+22:11:51,77 graphrag.index.input.factory INFO using file storage for input
+22:11:51,78 graphrag.index.input.csv INFO Loading csv files from input
+22:11:51,78 graphrag.storage.file_pipeline_storage INFO search /home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/uftos_graphrag/input for files matching unfair_tos_processed\.csv
+22:11:51,167 graphrag.index.input.util INFO Found 1 InputFileType.csv files, loading 1
+22:11:51,167 graphrag.index.input.util INFO Total number of unfiltered InputFileType.csv rows: 7807
+22:11:56,427 graphrag.index.operations.embed_text.strategies.openai INFO embedding 300 inputs via 300 snippets using 19 batches. max_batch_size=16, batch_max_tokens=8191
+22:11:57,929 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:11:58,169 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:11:58,388 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:11:58,615 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:11:58,897 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:11:59,217 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:11:59,547 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:11:59,766 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:11:59,981 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:12:00,310 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:12:00,613 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:12:00,840 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:12:01,105 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:12:01,351 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:12:01,590 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:12:01,805 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:12:02,8 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:12:02,303 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:12:02,506 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:13:10,431 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+22:13:14,673 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+22:13:36,148 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+22:13:51,24 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+22:14:12,860 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+22:14:33,648 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+22:14:58,137 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+22:15:27,58 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+22:15:48,184 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+22:16:01,331 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+22:16:01,337 graphrag.cli.index INFO Writing prompts to /home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/uftos_graphrag/elpepe
+22:16:01,339 graphrag.cli.index INFO Prompts written to /home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/uftos_graphrag/elpepe
+22:33:05,346 graphrag.cli.index INFO Logging enabled at /home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/uftos_graphrag/logs/prompt-tune.log
+22:33:05,348 graphrag.index.input.factory INFO loading input from root_dir=input
+22:33:05,349 graphrag.index.input.factory INFO using file storage for input
+22:33:05,349 graphrag.index.input.csv INFO Loading csv files from input
+22:33:05,349 graphrag.storage.file_pipeline_storage INFO search /home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/uftos_graphrag/input for files matching unfair_tos_processed\.csv
+22:33:05,438 graphrag.index.input.util INFO Found 1 InputFileType.csv files, loading 1
+22:33:05,438 graphrag.index.input.util INFO Total number of unfiltered InputFileType.csv rows: 7807
+22:33:10,607 graphrag.index.operations.embed_text.strategies.openai INFO embedding 300 inputs via 300 snippets using 19 batches. max_batch_size=16, batch_max_tokens=8191
+22:33:12,574 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:33:12,758 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:33:12,962 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:33:13,182 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:33:13,431 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:33:13,681 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:33:13,972 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:33:14,234 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:33:14,555 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:33:14,860 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:33:15,69 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:33:15,365 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:33:15,678 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:33:15,928 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:33:16,325 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:33:16,617 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:33:16,933 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:33:17,125 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:33:17,262 httpx INFO HTTP Request: POST http://localhost:11434/v1/embeddings "HTTP/1.1 200 OK"
+22:33:33,991 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+22:33:53,483 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+22:34:05,211 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+22:34:30,96 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+22:34:49,373 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+22:35:09,297 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+22:35:29,596 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+22:35:49,878 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+22:36:00,853 httpx INFO HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+22:36:00,858 graphrag.cli.index INFO Writing prompts to /home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/uftos_graphrag/elpepe
+22:36:00,860 graphrag.cli.index INFO Prompts written to /home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/uftos_graphrag/elpepe

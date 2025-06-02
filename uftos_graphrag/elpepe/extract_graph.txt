@@ -1,0 +1,114 @@
+-Goal-
+Given a text document, which is a legal clause from a Terms of Service agreement, and its pre-assigned labels, identify the primary legal category of the clause from a predefined list. Then, identify any other relevant entities within the clause and all significant relationships among all identified entities.
+
+-Steps-
+1. Identify the main entity representing the legal clause itself. For this main entity:
+    - entity_name: Create a concise, descriptive name for the clause (e.g., "TERMINATION FOR VIOLATION CLAUSE", "LIABILITY LIMITATION FOR SERVICE SUSPENSION"). Capitalize it.
+    - entity_type: Choose **one** primary category for this clause from the following list: [Limitation of liability, Unilateral termination, Unilateral change, Content removal, Contract by using, Choice of law, Jurisdiction, Arbitration]
+    - entity_description: Provide a comprehensive description of what the clause states, its purpose, and its key components.
+    Format this main entity as ("entity"{tuple_delimiter}<entity_name>{tuple_delimiter}<entity_type>{tuple_delimiter}<entity_description>)
+
+2. Identify any other relevant secondary entities mentioned within or directly related to the main legal clause. For each secondary entity:
+    - entity_name: Name of the entity, capitalized (e.g., "USER ACCOUNTS", "LINDEN LAB", "SAN FRANCISCO COURT").
+    - entity_type: A general type for this secondary entity (e.g., ORGANIZATION, PRODUCT, SERVICE, LOCATION, LEGAL CONCEPT, ACTION_EVENT). Avoid using the 8 main categories here unless it's a distinct, separate clause being referenced.
+    - entity_description: Comprehensive description of the entity's attributes and activities as relevant to the clause.
+    Format each secondary entity as ("entity"{tuple_delimiter}<entity_name>{tuple_delimiter}<entity_type>{tuple_delimiter}<entity_description>)
+
+3. From all entities identified (main clause and secondary), identify all pairs of (source_entity, target_entity) that are *clearly and directly related* to each other within the context of the clause.
+For each pair of related entities:
+    - source_entity: name of the source entity, as identified.
+    - target_entity: name of the target entity, as identified.
+    - relationship_description: explanation in English as to why you think the source entity and the target entity are related, based on the text.
+    - relationship_strength: an integer score between 1 (weakly related) to 10 (very strongly related), indicating the strength of the relationship.
+    Format each relationship as ("relationship"{tuple_delimiter}<source_entity>{tuple_delimiter}<target_entity>{tuple_delimiter}<relationship_description>{tuple_delimiter}<relationship_strength>)
+
+4. Return output in English as a single list of all the entities and relationships identified. Use **{record_delimiter}** as the list delimiter between each entity or relationship record.
+
+5. If the original text is in a language other than English, translate only the 'entity_description' and 'relationship_description' fields into English. Entity names and types should remain as extracted or defined.
+
+6. When finished, output {completion_delimiter}.
+
+-Examples-
+######################
+
+Example 1:
+
+entity_types: [Limitation of liability, Unilateral termination, Unilateral change, Content removal, Contract by using, Choice of law, Jurisdiction, Arbitration]
+text:
+labels_text: Limitation of liability, Unilateral termination
+"any violation by you of the terms of this section may result in immediate termination of your accounts without any refund or other compensation . "
+------------------------
+output:
+("entity"{tuple_delimiter}TERMINATION FOR TERMS VIOLATION CLAUSE{tuple_delimiter}Unilateral termination{tuple_delimiter}This clause states that any violation of the specified terms by the user can lead to the immediate termination of their accounts. It also specifies that such termination will occur without any refund or other compensation being provided to the user.)
+{record_delimiter}
+("entity"{tuple_delimiter}USER ACCOUNTS{tuple_delimiter}User Property{tuple_delimiter}The user's accounts that are subject to termination under this clause.)
+{record_delimiter}
+("entity"{tuple_delimiter}REFUND OR OTHER COMPENSATION{tuple_delimiter}Legal Consequence{tuple_delimiter}What the user will not receive upon termination for violation, as per this clause. This also implies a limitation of the company's liability to provide such compensation.)
+{record_delimiter}
+("relationship"{tuple_delimiter}TERMINATION FOR TERMS VIOLATION CLAUSE{tuple_delimiter}USER ACCOUNTS{tuple_delimiter}The clause dictates the conditions for termination of user accounts.{tuple_delimiter}10)
+{record_delimiter}
+("relationship"{tuple_delimiter}TERMINATION FOR TERMS VIOLATION CLAUSE{tuple_delimiter}REFUND OR OTHER COMPENSATION{tuple_delimiter}The clause explicitly states that termination due to violation results in no refund or compensation, linking the termination action to a financial consequence (or lack thereof) and limiting liability.{tuple_delimiter}9)
+{record_delimiter}
+("entity"{tuple_delimiter}NO COMPENSATION ON TERMINATION CLAUSE{tuple_delimiter}Limitation of liability{tuple_delimiter}This aspect of the clause limits the company's liability by stating no refund or compensation is due upon termination for user violation.)
+{record_delimiter}
+("relationship"{tuple_delimiter}TERMINATION FOR TERMS VIOLATION CLAUSE{tuple_delimiter}NO COMPENSATION ON TERMINATION CLAUSE{tuple_delimiter}The unilateral termination clause includes a provision that limits liability regarding compensation.{tuple_delimiter}8)
+{completion_delimiter}
+
+#############################
+
+Example 2:
+
+entity_types: [Limitation of liability, Unilateral termination, Unilateral change, Content removal, Contract by using, Choice of law, Jurisdiction, Arbitration]
+text:
+labels_text: Limitation of liability
+"in such event , you will not be entitled to compensation for such suspension or termination , and you acknowledge that linden lab will have no liability to you in connection with such suspension or termination . "
+------------------------
+output:
+("entity"{tuple_delimiter}NO COMPENSATION FOR SUSPENSION/TERMINATION CLAUSE{tuple_delimiter}Limitation of liability{tuple_delimiter}This clause specifies that the user is not entitled to any compensation if their service is suspended or terminated. It further states that Linden Lab holds no liability towards the user in connection with such suspension or termination.)
+{record_delimiter}
+("entity"{tuple_delimiter}LINDEN LAB{tuple_delimiter}ORGANIZATION{tuple_delimiter}The company (Linden Lab) that is disclaiming liability for compensation upon service suspension or termination.)
+{record_delimiter}
+("entity"{tuple_delimiter}COMPENSATION{tuple_delimiter}Legal Entitlement{tuple_delimiter}The payment or remedy that the user is not entitled to receive according to the clause.)
+{record_delimiter}
+("entity"{tuple_delimiter}SUSPENSION OR TERMINATION{tuple_delimiter}Action Event{tuple_delimiter}The events (service suspension or termination) for which compensation and liability are being limited.)
+{record_delimiter}
+("relationship"{tuple_delimiter}NO COMPENSATION FOR SUSPENSION/TERMINATION CLAUSE{tuple_delimiter}LINDEN LAB{tuple_delimiter}Linden Lab is the organization enforcing this limitation of liability clause.{tuple_delimiter}10)
+{record_delimiter}
+("relationship"{tuple_delimiter}NO COMPENSATION FOR SUSPENSION/TERMINATION CLAUSE{tuple_delimiter}COMPENSATION{tuple_delimiter}The clause explicitly denies entitlement to compensation.{tuple_delimiter}10)
+{record_delimiter}
+("relationship"{tuple_delimiter}NO COMPENSATION FOR SUSPENSION/TERMINATION CLAUSE{tuple_delimiter}SUSPENSION OR TERMINATION{tuple_delimiter}The limitation of liability applies in the event of service suspension or termination.{tuple_delimiter}9)
+{completion_delimiter}
+
+#############################
+
+Example 3:
+
+entity_types: [Limitation of liability, Unilateral termination, Unilateral change, Content removal, Contract by using, Choice of law, Jurisdiction, Arbitration]
+text:
+labels_text: Jurisdiction
+"you agree that any claim or dispute you may have against supercell must be resolved exclusively by a court located in san francisco , california . "
+------------------------
+output:
+("entity"{tuple_delimiter}EXCLUSIVE JURISDICTION CLAUSE (SUPERCELL){tuple_delimiter}Jurisdiction{tuple_delimiter}This clause mandates that any claim or dispute the user has against Supercell must be resolved solely by a court located in San Francisco, California, establishing exclusive jurisdiction in that location.)
+{record_delimiter}
+("entity"{tuple_delimiter}SUPERCELL{tuple_delimiter}ORGANIZATION{tuple_delimiter}The company (Supercell) against whom claims or disputes are to be resolved in a specific jurisdiction.)
+{record_delimiter}
+("entity"{tuple_delimiter}COURT IN SAN FRANCISCO, CALIFORNIA{tuple_delimiter}Location{tuple_delimiter}The specific geographic location and type of legal venue designated for resolving disputes with Supercell.)
+{record_delimiter}
+("entity"{tuple_delimiter}CLAIM OR DISPUTE{tuple_delimiter}Legal Matter{tuple_delimiter}The type of legal issues that are subject to the jurisdiction clause.)
+{record_delimiter}
+("relationship"{tuple_delimiter}EXCLUSIVE JURISDICTION CLAUSE (SUPERCELL){tuple_delimiter}SUPERCELL{tuple_delimiter}The jurisdiction clause applies to claims against Supercell.{tuple_delimiter}10)
+{record_delimiter}
+("relationship"{tuple_delimiter}EXCLUSIVE JURISDICTION CLAUSE (SUPERCELL){tuple_delimiter}COURT IN SAN FRANCISCO, CALIFORNIA{tuple_delimiter}The clause designates the Court in San Francisco, California as the exclusive venue.{tuple_delimiter}10)
+{record_delimiter}
+("relationship"{tuple_delimiter}EXCLUSIVE JURISDICTION CLAUSE (SUPERCELL){tuple_delimiter}CLAIM OR DISPUTE{tuple_delimiter}The clause specifies how claims or disputes must be resolved.{tuple_delimiter}9)
+{completion_delimiter}
+
+#############################
+
+-Real Data-
+######################
+entity_types: [Limitation of liability, Unilateral termination, Unilateral change, Content removal, Contract by using, Choice of law, Jurisdiction, Arbitration] # Asegúrate que esta lista siempre contenga tus 8 categorías
+text: {input_text}
+######################
+output:

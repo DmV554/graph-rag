@@ -1,0 +1,161 @@
+### LLM settings ###
+models:
+  default_chat_model:
+    type: openai_chat
+    api_base: http://localhost:11434/v1
+    auth_type: api_key
+    api_key: ollama
+    encoding_model: cl100k_base # Correcto para tiktoken
+    model: gemma3:1b-it-fp16  # Asegúrate que este sea el nombre EXACTO en `ollama list`
+    model_supports_json: true # Importante para la extracción estructurada
+    concurrent_requests: 2 # REDUCIDO: Para Ollama local, empieza bajo para prompt-tune
+    async_mode: threaded
+    retry_strategy: native
+    max_retries: 3
+    tokens_per_minute: null
+    requests_per_minute: null
+    # request_timeout: 300.0 # Aumenta si las llamadas al LLM para prompt-tune son muy largas y dan timeout
+
+  default_embedding_model:
+    type: openai_embedding
+    api_base: http://localhost:11434/v1
+    encoding_model: cl100k_base # Correcto para tiktoken
+    auth_type: api_key
+    api_key: "ollama"
+    model: "all-minilm:33m" # Asegúrate que sea este el nombre en `ollama list` (o el que uses)
+    model_supports_json: false
+    concurrent_requests: 4 # Puede ser un poco más alto que el chat_model
+    async_mode: threaded
+    retry_strategy: native
+    max_retries: 3
+    tokens_per_minute: null # Para Ollama, usualmente no se usan estos límites
+    requests_per_minute: null
+
+### Input settings ###
+# Esta sección es CRUCIAL para que prompt-tune lea tus datos correctamente
+input:
+  type: file
+  file_type: csv # CAMBIADO: Indica que tu entrada es CSV
+  base_dir: "input" # Directorio donde está tu CSV (e.g., input/unfair_tos_completo_con_texto.csv)
+  file_pattern: "unfair_tos_processed\\.csv" # CAMBIADO: Para que solo tome tu archivo específico
+  text_column: "text" # IMPORTANTE: Nombre de la columna en tu CSV que contiene las cláusulas
+  # title_column: "id_clausula" # OPCIONAL: Si tienes una columna con un ID o título único por cláusula
+  metadata: ["labels_text"] # IMPORTANTE: Lista la columna que tiene tus etiquetas textuales
+
+### Chunking settings ###
+# Estos valores serán usados por prompt-tune y también por la indexación principal
+chunks:
+  size: 300 # REDUCIDO: Para cláusulas legales, chunks más pequeños pueden ser mejores. Experimenta.
+             # El --chunk-size del comando prompt-tune (por defecto 200 [cite: 21]) puede sobreescribir esto durante el tuneo.
+
+  overlap: 30 # Pequeño solapamiento
+  # group_by_columns: [id] # Si tu CSV tiene una columna 'id' por cláusula, puedes mantenerlo.
+                           # Si no, y cada fila es una cláusula independiente, podrías quitarlo o usar un ID único si lo tienes.
+
+  prepend_metadata: true # SUGERIDO: Para que las 'labels_texto' se incluyan al inicio de cada chunk
+  chunk_size_includes_metadata: true # SUGERIDO: Para que el chunk_size total no se exceda con los metadatos
+
+### Output/storage settings ###
+output:
+  type: file
+  base_dir: "output" # Los resultados de la indexación irán aquí
+
+cache:
+  type: file
+  base_dir: "cache" # La caché de las respuestas del LLM
+
+reporting:
+  type: file
+  base_dir: "logs" # Los logs detallados del proceso
+
+vector_store:
+  default_vector_store:
+    type: lancedb
+    db_uri: output/lancedb # Nota: output se define arriba
+    container_name: default
+    overwrite: True
+
+### Workflow settings ###
+# Estos son los prompts que se usarán DESPUÉS del tuning.
+# El proceso de prompt-tune generará nuevos archivos (e.g., en 'prompts/tuning_YYYYMMDD_HHMMSS/').
+# Deberás actualizar estas rutas después del tuning o usar variables de entorno.
+
+embed_text:
+  model_id: default_embedding_model
+  vector_store_id: default_vector_store
+
+extract_graph:
+  model_id: default_chat_model
+  prompt: "elpepe/extract_graph.txt" # ESTE SERÁ UNO DE LOS PROMPTS QUE `prompt-tune` PUEDE GENERAR
+  entity_types: [
+      "Limitation of liability",
+      "Unilateral termination",
+      "Unilateral change",
+      "Content removal",
+      "Contract by using",
+      "Choice of law",
+      "Jurisdiction",
+      "Arbitration"]
+  max_gleanings: 1
+
+summarize_descriptions:
+  model_id: default_chat_model
+  prompt: "elpepe/summarize_descriptions.txt" # ESTE TAMBIÉN PUEDE SER AFINADO
+  max_length: 400 # Podría ser más corto para descripciones de cláusulas
+  # max_input_length: 4000 # Ajusta si es necesario
+
+extract_graph_nlp: # No se usa si la extracción principal es con LLM
+  text_analyzer:
+    extractor_type: regex_english
+
+cluster_graph:
+  max_cluster_size: 10 # Ajusta según tus necesidades de agrupación
+
+extract_claims:
+  enabled: false # Mantenlo así por ahora, a menos que sea un objetivo primario
+  model_id: default_chat_model
+  prompt: "prompts/extract_claims.txt"
+  description: "Declaraciones específicas o hechos sobre la equidad o injusticia de una cláusula contractual."
+  max_gleanings: 1
+
+community_reports:
+  model_id: default_chat_model
+  graph_prompt: "elpepe/community_report_graph.txt" # AFINABLE
+  text_prompt: "prompts/community_report_text.txt"   # AFINABLE
+  max_length: 1000 # Ajusta según necesidad
+  max_input_length: 4000 # Ajusta
+
+embed_graph:
+  enabled: false
+
+umap:
+  enabled: false
+
+snapshots:
+  graphml: true # Útil para visualizar/depurar el grafo
+  embeddings: false
+
+### Query settings ###
+# Estos prompts se usarán para consultar el grafo. No son directamente afinados por `prompt-tune`,
+# pero se beneficiarán de un grafo bien construido.
+local_search:
+  chat_model_id: default_chat_model
+  embedding_model_id: default_embedding_model
+  prompt: "prompts/local_search_system_prompt.txt"
+
+global_search:
+  chat_model_id: default_chat_model
+  map_prompt: "prompts/global_search_map_system_prompt.txt"
+  reduce_prompt: "prompts/global_search_reduce_system_prompt.txt"
+  knowledge_prompt: "prompts/global_search_knowledge_system_prompt.txt"
+
+drift_search:
+  chat_model_id: default_chat_model
+  embedding_model_id: default_embedding_model
+  prompt: "prompts/drift_search_system_prompt.txt"
+  reduce_prompt: "prompts/drift_search_reduce_prompt.txt"
+
+basic_search:
+  chat_model_id: default_chat_model
+  embedding_model_id: default_embedding_model
+  prompt: "prompts/basic_search_system_prompt.txt"
