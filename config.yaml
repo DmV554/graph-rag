@@ -15,7 +15,7 @@ dataset:
   split: "test"
   text_field: "text"
   label_field: "labels"
-  eval_samples: 1607
+  eval_samples: 10
   output_csv: "data/unfair_tos_data/test_rag_results.csv"
 
 # === MLflow Configuration (Optional) ===

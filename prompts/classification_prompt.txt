@@ -8,7 +8,7 @@ Categorías:
 Contexto:
 {context_str}
 
-Cláusula:
+Cláusula a clasificar:
 {query_str}
 
 Etiquetas (separadas por comas o 'Ninguna'):

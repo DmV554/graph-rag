@@ -14,6 +14,57 @@ from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn.metrics import f1_score, jaccard_score, hamming_loss, classification_report
 from rapidfuzz.fuzz import partial_ratio
 from tqdm import tqdm
+from llama_index.core.callbacks import CallbackManager, LlamaDebugHandler, CBEventType
+
+# --- Callback Handler Personalizado para capturar el prompt ---
+class PromptCaptureHandler(LlamaDebugHandler):
+    def __init__(self):
+        super().__init__()
+        self.last_llm_prompt = None
+        self.last_llm_inputs = None
+
+    def on_event_start(
+        self,
+        event_type: CBEventType,
+        payload: dict = None,
+        event_id: str = "",
+        parent_id: str = "",
+        **kwargs,
+    ) -> str:
+        if event_type == CBEventType.LLM:
+            # El payload en el evento LLM contiene los argumentos pasados al LLM
+            # Esto incluye los mensajes o el prompt formateado
+            if payload:
+                # Para modelos de chat, los prompts están en 'messages'
+                if "messages" in payload:
+                    self.last_llm_inputs = payload.get("messages")
+                # Para modelos de completado, puede estar en una lista de 'prompts'
+                elif "prompts" in payload:
+                     self.last_llm_inputs = payload.get("prompts")
+
+        return event_id # Devuelve el event_id
+
+    def on_event_end(
+        self,
+        event_type: CBEventType,
+        payload: dict = None,
+        event_id: str = "",
+        **kwargs,
+    ) -> None:
+        # Aquí podrías capturar la respuesta del LLM si quisieras
+        pass
+
+    def get_last_llm_prompt_str(self):
+        if not self.last_llm_inputs:
+            return "No se capturó ningún prompt para el LLM."
+
+        # Si son mensajes de chat (lo más común ahora)
+        if isinstance(self.last_llm_inputs, list) and hasattr(self.last_llm_inputs[0], 'content'):
+            return "\n".join([f"Role: {msg.role}\nContent: {msg.content}" for msg in self.last_llm_inputs])
+        # Si es una lista de strings de prompt (para modelos de completado más antiguos)
+        elif isinstance(self.last_llm_inputs, list) and isinstance(self.last_llm_inputs[0], str):
+            return "\n---\n".join(self.last_llm_inputs)
+        return str(self.last_llm_inputs)
 
 @hydra.main(version_base=None, config_path=".", config_name="config")
 def main(cfg: DictConfig):
@@ -23,7 +74,7 @@ def main(cfg: DictConfig):
     mlflow.set_tracking_uri(cfg.mlflow.tracking_uri)
     mlflow.set_experiment(cfg.experiment_name)
 
-    with mlflow.start_run():
+    with mlflow.start_run(run_name=f"{cfg.rag.llm_model}_{cfg.dataset.name}") as run:
         # Log configuration
         mlflow.log_params(OmegaConf.to_container(cfg, resolve=True))
 
@@ -46,9 +97,12 @@ def main(cfg: DictConfig):
         text_field = cfg.dataset.text_field
         label_names = ds.features[label_field].feature.names
 
+        prompt_capture_handler = PromptCaptureHandler()
+        callback_manager = CallbackManager([prompt_capture_handler])
         # --- Initialize LLM & Embeddings via LlamaIndex ---
         Settings.llm = Ollama(model=cfg.rag.llm_model, request_timeout=cfg.rag.request_timeout)
         Settings.embed_model = HuggingFaceEmbedding(model_name=cfg.rag.embed_model)
+        Settings.callback_manager = callback_manager  # Asignar el callback manager globalmente
 
         # --- Load persisted index ---
         persist_dir = cfg.rag.persist_dir
@@ -67,6 +121,7 @@ def main(cfg: DictConfig):
         # --- Prepare classification prompt template ---
         categories_str = "\n".join([f"- {l}" for l in label_names])
         full_template = prompt_template_text.replace("{categorias}", categories_str)
+        #print("Prompt final:", full_template)
         tpl = PromptTemplate(full_template)
         qe.update_prompts({"response_synthesizer:text_qa_template": tpl})
 
@@ -80,6 +135,9 @@ def main(cfg: DictConfig):
         for text, true_idx in tqdm(zip(texts, true_indices), total=len(texts)):
             y_true.append(true_idx)
             res = qe.query(text)
+            print("\n--- Prompt Final Enviado al LLM (Capturado por Callback) ---")
+            print(prompt_capture_handler.get_last_llm_prompt_str())  # Imprimir el prompt capturado
+
             out = res.response.strip()
             preds = [lab for lab in label_names if partial_ratio(out, lab) >= cfg.rag.match_threshold]
             y_pred.append(preds)
