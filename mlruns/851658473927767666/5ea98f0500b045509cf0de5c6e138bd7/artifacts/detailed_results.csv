@@ -1,0 +1,101 @@
+index,true_labels,predicted_labels,model_output
+0,[],[],“Other”
+1,[],[],“Other”
+2,[],['Contract by using'],“Contract by using”
+3,[],['Contract by using'],“Contract by using”
+4,['Arbitration'],['Arbitration'],Arbitration
+5,[],[],“Other”
+6,[],[],“Other”
+7,[],[],“Other”
+8,[],[],“Other”
+9,[],[],“Other”
+10,[],[],“Other”
+11,[],[],“Other”
+12,['Contract by using'],[],“Other”
+13,[],['Unilateral change'],“Unilateral change”
+14,[],[],“Other”
+15,['Unilateral change'],[],“Other”
+16,[],[],“Other”
+17,[],[],“Other”
+18,['Contract by using'],[],“Other”
+19,[],[],“Limiting liability”
+20,[],[],“Other”
+21,[],[],“Other”
+22,[],[],“Other”
+23,[],[],“Other”
+24,[],[],“Other”
+25,[],[],Other
+26,[],[],“Other”
+27,[],[],Other
+28,[],[],“Other”
+29,[],[],“Other”
+30,['Unilateral termination'],[],“Other”
+31,[],[],Other
+32,[],['Limitation of liability'],“Limitation of liability”
+33,[],[],“Other”
+34,[],['Contract by using'],“Contract by using”
+35,[],[],“Other”
+36,[],[],“Payment”
+37,[],[],“Other”
+38,[],[],“Other”
+39,[],[],“Other”
+40,[],[],“Other”
+41,[],[],“Other”
+42,[],[],“Other”
+43,[],['Limitation of liability'],“Limitation of liability”
+44,[],[],“Other”
+45,[],[],“Other”
+46,[],[],“Other”
+47,[],[],“Other”
+48,[],[],“Other”
+49,[],[],“Other
+50,[],[],“Other”
+51,[],[],“Other”
+52,[],[],“Other”
+53,[],[],“Other”
+54,[],[],“Other”
+55,[],[],“Other”
+56,['Unilateral termination'],['Unilateral change'],“Unilateral change”
+57,[],[],“Cancellation”
+58,[],[],“Other”
+59,[],['Limitation of liability'],“Limitation of liability”
+60,[],[],“Other”
+61,[],['Limitation of liability'],“Limitation of liability”
+62,[],['Unilateral termination'],“Unilateral termination”
+63,[],[],Other
+64,[],[],“Termination”
+65,[],[],“Other”
+66,[],[],“Taxation”
+67,"['Unilateral change', 'Unilateral termination']",['Arbitration'],Arbitration
+68,[],['Unilateral change'],“Unilateral change”
+69,[],[],“Other”
+70,[],['Contract by using'],“Contract by using”
+71,[],[],“Other”
+72,[],[],“Other”
+73,[],[],“Other”
+74,[],[],“Other”
+75,[],[],“Other”
+76,[],[],“Other”
+77,[],[],“Other”
+78,[],[],“Other”
+79,[],[],“Other”
+80,[],[],“Other”
+81,[],[],“Other”
+82,[],[],“Other”
+83,[],[],“Other”
+84,[],['Arbitration'],Arbitration
+85,[],[],“Other”
+86,[],[],“Other”
+87,[],[],“Other”
+88,[],['Arbitration'],Arbitration
+89,[],[],“Other”
+90,[],[],“Other”
+91,[],[],“Other”
+92,[],[],“Other”
+93,[],[],“Other”
+94,[],[],“Other”
+95,[],[],Other
+96,[],[],“Other
+97,[],[],“Other”
+98,[],[],“Other”
+99,[],['Content removal'],“Content removal”

@@ -3,42 +3,42 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="\lex-glue\logs\unfair_tos\bert-base-uncased\seed_1\test_predictions.csv">
+        <entry key="\data\unfair_tos_data\test_sample_predictions_with_reasoning.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\uftos_graphrag\input\modified_data.csv">
+        <entry key="\data\unfair_tos_data\unfair_tos_test.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\uftos_graphrag\input\unfair_tos_completo_con_texto.csv">
+        <entry key="\data\unfair_tos_data\unfair_tos_train.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\unfair_tos_data\unfair_tos_test.csv">
+        <entry key="\data\unfair_tos_data\unfair_tos_validation.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\unfair_tos_data\unfair_tos_train.csv">
+        <entry key="\detailed_results.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\unfair_tos_data\unfair_tos_validation.csv">
+        <entry key="\graphrag\uftos_graphrag\input\unfair_tos_processed.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

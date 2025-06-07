@@ -1,0 +1,7 @@
+[2025-06-07 00:10:36,545][sentence_transformers.SentenceTransformer][INFO] - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+[2025-06-07 00:10:46,181][sentence_transformers.SentenceTransformer][INFO] - 2 prompts are loaded, with the keys: ['query', 'text']
+[2025-06-07 00:10:57,012][llama_index.core.indices.loading][INFO] - Loading all indices.
+[2025-06-07 00:10:57,234][httpx][INFO] - HTTP Request: POST http://localhost:11434/api/show "HTTP/1.1 200 OK"
+[2025-06-07 00:11:06,363][httpx][INFO] - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+[2025-06-07 00:11:12,904][httpx][INFO] - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+[2025-06-07 00:11:17,574][httpx][INFO] - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"

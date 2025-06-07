@@ -1,0 +1,10 @@
+model_name: gemma3:1b
+prompt_path: unfair_tos/prompts/8-way_prompt_v1.docx
+similarity_threshold: 90
+openai:
+  api_key: ollama
+  base_url: http://localhost:11434/v1
+dataset:
+  name: lex_glue
+  config: unfair_tos
+  split: test

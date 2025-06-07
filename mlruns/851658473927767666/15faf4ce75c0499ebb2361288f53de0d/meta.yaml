@@ -1,0 +1,15 @@
+artifact_uri: file:///home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/mlruns/851658473927767666/15faf4ce75c0499ebb2361288f53de0d/artifacts
+end_time: 1749270801848
+entry_point_name: ''
+experiment_id: '851658473927767666'
+lifecycle_stage: active
+run_id: 15faf4ce75c0499ebb2361288f53de0d
+run_name: suave-stag-341
+run_uuid: 15faf4ce75c0499ebb2361288f53de0d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749270390163
+status: 3
+tags: []
+user_id: daniel

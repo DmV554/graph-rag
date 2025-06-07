@@ -1,0 +1,1615 @@
+index,true_labels,predicted_labels,model_output
+0,[],[],“Other”
+1,[],[],“Other”
+2,[],['Contract by using'],“Contract by using”
+3,[],['Contract by using'],“Contract by using”
+4,['Arbitration'],['Arbitration'],Arbitration
+5,[],[],“Other”
+6,[],[],“Other”
+7,[],[],“Other”
+8,[],[],“Other”
+9,[],[],“Other”
+10,[],[],“Other”
+11,[],[],“Other”
+12,['Contract by using'],[],“Other”
+13,[],['Unilateral termination'],“Unilateral termination”
+14,[],[],“Other”
+15,['Unilateral change'],[],“Other”
+16,[],[],“Other”
+17,[],[],“Other”
+18,['Contract by using'],[],“Other”
+19,[],['Limitation of liability'],“Limitation of liability”
+20,[],[],“Other”
+21,[],[],“Other”
+22,[],[],“Other”
+23,[],[],“Other”
+24,[],[],“Other”
+25,[],[],Other
+26,[],[],“Other”
+27,[],[],Other
+28,[],[],“Other”
+29,[],[],“Other”
+30,['Unilateral termination'],[],“Other”
+31,[],[],Other
+32,[],['Limitation of liability'],“Limitation of liability”
+33,[],[],Other
+34,[],['Contract by using'],“Contract by using”
+35,[],[],“Subscription”
+36,[],[],“Payment”
+37,[],[],“Other”
+38,[],[],“Other”
+39,[],[],“Other”
+40,[],[],“Other”
+41,[],[],“Other”
+42,[],[],“Other”
+43,[],['Limitation of liability'],“Limitation of liability”
+44,[],[],“Other”
+45,[],[],“Other”
+46,[],['Unilateral termination'],“Unilateral termination”
+47,[],[],“Other”
+48,[],[],“Other”
+49,[],[],“Other
+50,[],[],“Other”
+51,[],[],“Other”
+52,[],[],“Other”
+53,[],[],“Other”
+54,[],[],“Other”
+55,[],[],“Cancellation of subscriptions”
+56,['Unilateral termination'],['Unilateral change'],“Unilateral change”
+57,[],[],“Cancellation”
+58,[],[],“Other”
+59,[],['Limitation of liability'],“Limitation of liability”
+60,[],[],“Other”
+61,[],['Limitation of liability'],“Limitation of liability”
+62,[],[],“Other”
+63,[],['Unilateral change'],“Unilateral change”
+64,[],[],“Termination”
+65,[],[],“Other”
+66,[],[],“Taxation”
+67,"['Unilateral change', 'Unilateral termination']",['Arbitration'],Arbitration
+68,[],['Limitation of liability'],“Limitation of liability”
+69,[],[],“Other”
+70,[],['Contract by using'],“Contract by using”
+71,[],[],“Other”
+72,[],[],“Other”
+73,[],[],“Other”
+74,[],[],“Other”
+75,[],[],“Other”
+76,[],[],“Other”
+77,[],['Unilateral change'],“Unilateral change”
+78,[],[],“Other”
+79,[],[],“Other”
+80,[],[],“Other”
+81,[],[],“Other”
+82,[],[],“Other”
+83,[],[],“Other”
+84,[],['Arbitration'],Arbitration
+85,[],[],“Other”
+86,[],[],“Other”
+87,[],[],“Other”
+88,[],['Arbitration'],Arbitration
+89,[],[],“Other”
+90,[],[],“Other”
+91,[],[],“Other”
+92,[],[],“Other”
+93,[],[],“Other”
+94,[],[],“Other”
+95,[],[],Other
+96,[],[],“Other
+97,[],[],“Other”
+98,[],[],“Other”
+99,[],['Content removal'],Content removal
+100,[],['Content removal'],“Content removal”
+101,[],[],Other
+102,[],['Content removal'],“Content removal”
+103,[],[],“Other”
+104,[],['Arbitration'],Arbitration
+105,[],[],“Other”
+106,[],['Unilateral change'],“Unilateral change”
+107,[],[],“Other”
+108,[],[],“Other”
+109,[],['Arbitration'],Arbitration
+110,[],['Content removal'],“Content removal
+111,[],['Arbitration'],Arbitration
+112,[],['Content removal'],“Content removal
+113,[],[],“Other”
+114,[],[],“Other
+115,[],[],Other
+116,[],[],“Other”
+117,[],[],“Other”
+118,[],[],“Other”
+119,"['Content removal', 'Unilateral termination']",['Arbitration'],Arbitration
+120,[],[],“Other”
+121,['Unilateral termination'],[],“Other”
+122,[],[],“Other”
+123,[],[],“Other”
+124,[],[],“Other”
+125,[],[],“Other”
+126,[],[],“Other”
+127,['Unilateral termination'],[],“Other”
+128,['Unilateral termination'],['Arbitration'],Arbitration
+129,['Unilateral termination'],['Arbitration'],Arbitration
+130,[],['Limitation of liability'],“Limitation of liability”
+131,[],[],“Other”
+132,[],[],“Other”
+133,[],[],“Other”
+134,[],[],“Other”
+135,[],[],“Other”
+136,[],[],“Other”
+137,[],[],“Other”
+138,[],[],“Other”
+139,[],[],“Other”
+140,[],['Limitation of liability'],“Limitation of liability”
+141,[],['Limitation of liability'],“Limitation of liability”
+142,['Limitation of liability'],[],“Other
+143,['Limitation of liability'],['Limitation of liability'],Limitation of liability
+144,[],['Limitation of liability'],“Limitation of liability”
+145,[],[],“Other”
+146,[],[],“Trademark”
+147,[],[],“Other”
+148,['Choice of law'],['Contract by using'],“Contract by using“
+149,[],[],“Other”
+150,[],[],“Other”
+151,[],[],“Other”
+152,[],[],“Other”
+153,[],[],“Other”
+154,[],[],“Other”
+155,[],[],Other
+156,['Arbitration'],['Arbitration'],Arbitration
+157,[],['Content removal'],"“To ensure the continuation of our service and to uphold our obligations to our users, we will take reasonable steps to protect your content and data. This includes, but is not limited to, monitoring and analyzing content, and implementing measures to detect and prevent misuse.” 
+Label: “Content removal”"
+158,[],['Arbitration'],Arbitration
+159,[],['Arbitration'],Arbitration
+160,['Jurisdiction'],['Jurisdiction'],Jurisdiction
+161,[],['Arbitration'],Arbitration
+162,[],[],“Other”
+163,[],[],“Other”
+164,[],[],“Other”
+165,[],['Arbitration'],Arbitration
+166,[],['Arbitration'],“Arbitration”
+167,[],[],“Other”
+168,[],['Arbitration'],“Federal arbitration act
+169,[],['Arbitration'],Arbitration
+170,[],[],“Other”
+171,[],['Arbitration'],“Arbitration”
+172,[],['Arbitration'],Arbitration
+173,[],['Arbitration'],Arbitration
+174,[],[],“Other
+175,[],[],“Other”
+176,[],['Arbitration'],Arbitration
+177,[],['Arbitration'],Arbitration
+178,[],[],“Other”
+179,[],['Arbitration'],“Arbitration”
+180,[],['Limitation of liability'],“Limitation of liability
+181,[],['Arbitration'],“Arbitration”
+182,[],[],“Other”
+183,[],[],“Other”
+184,[],['Limitation of liability'],“Limitation of liability”
+185,[],[],“Other
+186,[],['Arbitration'],Arbitration
+187,[],['Arbitration'],“Arbitration
+188,[],[],“Other”
+189,[],['Arbitration'],Arbitration
+190,[],['Limitation of liability'],“Limitation of liability”
+191,[],[],“Other”
+192,[],[],“Other”
+193,[],[],“Other”
+194,[],[],“Other”
+195,[],[],“We offer a free trial period for the amazon services.”
+196,['Contract by using'],[],“Other”
+197,[],[],“Other”
+198,[],[],“Other”
+199,[],[],“Other”
+200,[],[],“Other”
+201,[],[],“Other”
+202,[],[],“Other”
+203,[],[],Other
+204,[],['Contract by using'],“Contract by using”
+205,[],['Contract by using'],“Contract by using”
+206,[],[],Other
+207,[],[],“Other”
+208,[],[],“Trademark”
+209,[],[],“Other”
+210,[],[],“Patent”
+211,[],[],“Other”
+212,[],[],Other
+213,[],[],“Other”
+214,[],[],“Other”
+215,[],[],“Other”
+216,[],[],“Other”
+217,[],[],“Other”
+218,[],[],“Other”
+219,[],[],“Other”
+220,[],['Unilateral change'],“Unilateral change”
+221,['Unilateral termination'],['Unilateral termination'],“Unilateral termination
+222,[],[],“Other”
+223,[],[],“Other”
+224,[],[],Other
+225,[],['Unilateral change'],“Unilateral change”
+226,[],[],Other
+227,[],[],“Other”
+228,"['Content removal', 'Unilateral termination']",['Arbitration'],Arbitration
+229,[],[],“Other”
+230,[],[],Other
+231,[],[],“Other”
+232,['Content removal'],['Content removal'],“Content removal”
+233,[],[],“Other”
+234,[],[],“Other”
+235,[],[],“Other”
+236,['Content removal'],['Content removal'],“Content removal
+237,['Limitation of liability'],[],“Other”
+238,[],[],Other
+239,[],['Content removal'],“Content removal”
+240,[],[],“Other”
+241,[],[],Other
+242,[],[],Other
+243,[],[],“Refund”
+244,[],['Unilateral change'],“Unilateral change”
+245,[],[],“Other”
+246,[],[],Other
+247,[],[],“Other”
+248,[],['Unilateral change'],“Unilateral change”
+249,[],[],Other
+250,[],[],“Other”
+251,[],[],“Other”
+252,[],[],“Other”
+253,[],[],“Other”
+254,[],[],“Other”
+255,[],[],“Other”
+256,[],[],“Other”
+257,[],[],“Other”
+258,[],[],Other
+259,[],[],Other
+260,[],[],“Sanctions”
+261,[],[],“Export and re-export restrictions”
+262,[],[],“Other”
+263,[],[],“Other”
+264,[],[],“Other”
+265,[],[],“Other”
+266,[],[],“Other”
+267,[],[],“Disclaimers
+268,[],[],“Other”
+269,[],[],“Other”
+270,[],[],“Other”
+271,[],[],“Other”
+272,[],[],“Other”
+273,['Limitation of liability'],['Limitation of liability'],“Limitation of liability”
+274,['Arbitration'],['Arbitration'],Arbitration
+275,[],[],“Other”
+276,[],['Arbitration'],“Arbitration”
+277,[],['Arbitration'],Arbitration
+278,[],['Arbitration'],Arbitration
+279,[],['Arbitration'],“Arbitration”
+280,[],[],“Other”
+281,[],[],“Other”
+282,[],['Limitation of liability'],“Limitation of liability”
+283,[],[],“Other”
+284,[],['Arbitration'],“Arbitration”
+285,[],[],“Other”
+286,[],['Arbitration'],“Arbitration”
+287,[],[],“Other”
+288,"['Choice of law', 'Contract by using']",['Contract by using'],“Contract by using
+289,[],[],“Other”
+290,[],[],“Other”
+291,[],[],“Other”
+292,['Unilateral change'],['Unilateral change'],“Unilateral change”
+293,[],[],“Other”
+294,[],[],“Other”
+295,[],[],“Other”
+296,[],[],“Other”
+297,[],[],“Other”
+298,[],[],“Copyright”
+299,[],[],“Other”
+300,[],[],“Other”
+301,[],[],“Other”
+302,[],[],“Other”
+303,[],[],“Other”
+304,[],['Arbitration'],Arbitration
+305,[],[],“Other”
+306,[],['Jurisdiction'],Jurisdiction
+307,[],['Arbitration'],Arbitration
+308,[],[],“Other”
+309,[],[],Other
+310,[],[],Other
+311,[],[],“Other”
+312,[],[],Other
+313,[],[],Other
+314,[],[],“Other”
+315,[],[],“Other”
+316,[],[],"“your name, email address, and contact details.”
+Label: “Other”"
+317,[],[],“Other”
+318,[],[],“Other”
+319,[],[],“Other”
+320,[],[],Other
+321,[],[],“Other”
+322,[],[],“Other”
+323,[],[],“www.amazon.com/support@copyright.com”
+324,[],[],“Other”
+325,[],[],“Other”
+326,[],['Contract by using'],“Contract by using”
+327,[],[],“Other”
+328,[],[],“Other”
+329,[],[],“Other”
+330,[],[],“Other”
+331,[],['Limitation of liability'],“Limitation of liability”
+332,[],[],“Other”
+333,[],[],“Other”
+334,[],[],“Other”
+335,[],[],“Other”
+336,['Unilateral termination'],[],“Revocation of free trial
+337,[],[],“Other”
+338,[],[],“Other”
+339,[],[],“Other”
+340,[],[],“Other”
+341,[],[],“Other”
+342,[],[],“Other”
+343,[],[],Other
+344,[],[],“Other”
+345,[],['Arbitration'],Arbitration
+346,[],['Limitation of liability'],“Limitation of liability”
+347,[],[],“Other”
+348,[],[],“Other”
+349,[],[],“Other”
+350,[],[],Other
+351,[],['Unilateral termination'],“Unilateral termination”
+352,[],['Limitation of liability'],“Limitation of liability”
+353,[],[],“Cancellation”
+354,[],['Limitation of liability'],“Limitation of liability”
+355,[],['Limitation of liability'],“Limitation of liability”
+356,[],['Unilateral termination'],“Unilateral termination”
+357,[],[],“Other”
+358,[],[],“Change of price and service plans”
+359,['Unilateral change'],[],“Other”
+360,[],[],“Other”
+361,[],[],“Other”
+362,[],[],“Other”
+363,[],[],“Other”
+364,[],[],“Other”
+365,[],[],“Other”
+366,[],[],“Other”
+367,[],[],“Other”
+368,[],[],“Other”
+369,['Unilateral change'],[],“Other”
+370,[],[],"""Other"""
+371,[],[],“Other”
+372,[],[],“Other”
+373,[],[],“Other”
+374,[],[],“Other”
+375,[],['Contract by using'],“Contract by using”
+376,[],[],“Other”
+377,[],['Arbitration'],Arbitration
+378,[],['Arbitration'],Arbitration
+379,['Unilateral termination'],['Arbitration'],Arbitration
+380,[],[],“Other”
+381,[],[],Other
+382,[],[],“Other”
+383,[],[],Other
+384,[],[],Other
+385,[],[],“Other”
+386,[],[],“Other”
+387,[],[],Other
+388,[],[],Other
+389,[],[],“Other”
+390,[],[],“Other”
+391,[],[],“Other”
+392,[],[],“Other”
+393,[],[],“Other”
+394,[],[],“Other”
+395,[],[],“Other”
+396,[],[],“Other”
+397,[],[],“Other”
+398,['Choice of law'],['Contract by using'],“Contract by using”
+399,[],[],“Other”
+400,[],[],“Other”
+401,[],[],“Other”
+402,[],[],“Other”
+403,[],[],“Other”
+404,[],[],“Other”
+405,[],[],“Other”
+406,[],[],“Other”
+407,['Unilateral change'],[],“Other”
+408,[],[],“Other”
+409,[],[],“Other”
+410,[],[],“Other”
+411,[],[],Other
+412,[],[],“Other”
+413,[],[],“Other”
+414,[],[],“Other”
+415,[],[],“Other”
+416,[],[],“Other”
+417,[],['Contract by using'],“Contract by using
+418,[],[],Other
+419,['Contract by using'],[],“Other”
+420,[],['Unilateral termination'],“Unilateral termination”
+421,[],[],“Other”
+422,[],[],“Other”
+423,[],['Arbitration'],“Arbitration”
+424,[],[],“Other”
+425,[],[],“Other”
+426,[],[],Other
+427,[],[],Other
+428,[],['Contract by using'],“Contract by using”
+429,[],[],“Other”
+430,[],['Contract by using'],“Contract by using”
+431,[],[],“Other”
+432,[],[],“Other”
+433,[],[],“Other”
+434,[],[],“Other”
+435,[],[],“Other”
+436,[],[],“Other”
+437,[],[],“Other”
+438,[],['Unilateral termination'],“Unilateral termination”
+439,[],[],“Other”
+440,[],[],“Other”
+441,[],[],“Other”
+442,[],['Arbitration'],Arbitration
+443,[],[],“Other”
+444,[],[],“Other”
+445,[],[],“Other”
+446,[],['Content removal'],“Content removal
+447,[],['Arbitration'],Arbitration
+448,[],[],“Other”
+449,['Content removal'],['Content removal'],“Content removal
+450,[],[],“Other”
+451,[],[],“Other”
+452,[],[],“Other”
+453,[],[],“Other”
+454,[],[],Other
+455,[],[],“Other”
+456,[],[],“Other”
+457,[],[],“Other”
+458,[],['Unilateral change'],“Unilateral change”
+459,[],[],Other
+460,[],[],“Other”
+461,[],[],“Other”
+462,[],[],Other
+463,[],[],“Other
+464,['Contract by using'],['Contract by using'],“Contract by using“
+465,[],[],Other
+466,[],[],“violate these terms.”
+467,[],[],“Other”
+468,[],[],Other
+469,[],[],Other
+470,[],['Unilateral change'],“Unilateral change”
+471,[],[],"“access, modify, or use the content.”"
+472,[],[],“Other”
+473,[],[],Other
+474,[],['Unilateral change'],“Unilateral change”
+475,[],[],“Other”
+476,[],[],Other
+477,[],['Arbitration'],Arbitration
+478,['Unilateral termination'],['Content removal'],“Content removal
+479,[],[],“Other”
+480,[],[],“Other”
+481,[],[],Other
+482,[],[],"“first be sent to the copyright agent within 24 hours of filing.”
+"
+483,[],['Unilateral termination'],“Unilateral termination”
+484,[],[],Other
+485,[],['Content removal'],“Content removal
+486,[],[],Other
+487,[],[],“Other”
+488,[],[],“Other”
+489,[],[],Other
+490,[],[],Other
+491,[],[],Other
+492,[],[],Other
+493,[],[],“Other”
+494,[],['Arbitration'],Arbitration
+495,[],[],“Other”
+496,[],[],Other
+497,[],[],“Other”
+498,[],[],Other
+499,[],['Content removal'],“Content removal
+500,[],['Content removal'],“Content removal”
+501,[],['Arbitration'],Arbitration
+502,[],['Content removal'],“Content removal”
+503,[],[],“Other”
+504,[],[],“Other”
+505,[],[],Other
+506,[],[],Other
+507,[],[],Other
+508,[],[],“Other”
+509,[],[],Other
+510,[],[],Other
+511,[],[],"“we may access, review, screen, and delete your content at any time and for any reason , including if we think your content violates these terms.”"
+512,[],[],“Other”
+513,[],[],“Other”
+514,[],[],“Other”
+515,[],[],Other
+516,[],[],“Other”
+517,[],['Arbitration'],Arbitration
+518,[],[],“Other”
+519,[],[],“Other”
+520,[],[],“Other”
+521,[],[],“Other”
+522,[],[],“Other”
+523,[],[],Other
+524,[],[],Other
+525,[],[],Other
+526,[],[],Other
+527,[],[],Other
+528,"['Content removal', 'Unilateral termination']",[],“Other”
+529,[],[],Other
+530,[],[],“Other”
+531,['Unilateral change'],[],“Other”
+532,[],[],“Other”
+533,[],[],“Other”
+534,[],[],“Other”
+535,[],[],“Other”
+536,[],[],“Other”
+537,[],[],“Other”
+538,[],[],“Other”
+539,[],[],“Other”
+540,[],[],“Other”
+541,"['Unilateral change', 'Unilateral termination']",[],“Other”
+542,['Unilateral change'],[],“Other”
+543,[],['Unilateral termination'],“Unilateral termination”
+544,['Unilateral termination'],['Arbitration'],Arbitration
+545,[],[],Other
+546,['Unilateral termination'],['Limitation of liability'],“Limitation of liability”
+547,['Unilateral termination'],[],“Other”
+548,[],[],“Other”
+549,[],['Arbitration'],Arbitration
+550,[],[],Other
+551,[],[],Other
+552,[],[],“Other”
+553,[],[],“Other”
+554,['Limitation of liability'],[],“Other”
+555,[],['Content removal'],“Content removal
+556,['Limitation of liability'],['Arbitration'],Arbitration
+557,['Limitation of liability'],['Limitation of liability'],“Limitation of liability”
+558,[],[],“Other”
+559,[],[],Other
+560,[],[],Other
+561,[],[],“Other”
+562,[],['Arbitration'],Arbitration
+563,[],['Arbitration'],Arbitration
+564,[],['Unilateral termination'],“Unilateral termination”
+565,['Jurisdiction'],['Arbitration'],Arbitration
+566,['Jurisdiction'],['Arbitration'],Arbitration
+567,['Choice of law'],['Choice of law'],“Choice of law
+568,[],['Choice of law'],“Choice of law
+569,[],[],“Other”
+570,[],[],“Other”
+571,[],[],“Other”
+572,[],[],“Other”
+573,[],[],“Other”
+574,[],['Contract by using'],“Contract by using”
+575,[],[],“Other”
+576,[],[],“Other”
+577,[],[],Other
+578,[],[],“Other”
+579,[],[],Other
+580,[],[],“Other”
+581,['Contract by using'],[],Other
+582,[],[],“Other”
+583,[],[],“Other”
+584,[],[],“Other”
+585,['Contract by using'],['Contract by using'],“Contract by using”
+586,[],[],“Other”
+587,[],[],Other
+588,[],[],“Other”
+589,[],[],“Other”
+590,[],['Content removal'],“Content removal”
+591,[],[],“Other”
+592,[],['Content removal'],“Content removal”
+593,[],[],“Other”
+594,['Content removal'],['Arbitration'],Arbitration
+595,[],[],“Other”
+596,[],['Content removal'],“Content removal
+597,[],[],Other
+598,[],[],“Other”
+599,[],[],“Other”
+600,[],[],“Other”
+601,[],['Unilateral change'],“Unilateral change”
+602,[],[],“Other”
+603,[],[],“Other”
+604,[],[],“Other”
+605,[],[],“Other”
+606,[],[],“Other”
+607,[],[],“Other”
+608,[],[],“Other”
+609,[],[],“Other”
+610,['Unilateral change'],[],“Other”
+611,['Unilateral termination'],['Unilateral termination'],“Unilateral termination”
+612,['Unilateral change'],[],“Other”
+613,"['Content removal', 'Limitation of liability']",['Arbitration'],Arbitration
+614,['Unilateral change'],[],“Other”
+615,['Unilateral termination'],[],“Other”
+616,['Unilateral change'],[],“Other”
+617,"['Content removal', 'Limitation of liability']",['Arbitration'],Arbitration
+618,[],[],Other
+619,[],[],“Other”
+620,[],[],“Other”
+621,[],[],“Other”
+622,[],[],“Other”
+623,[],[],“Other”
+624,[],['Limitation of liability'],“Limitation of liability”
+625,[],[],“Other”
+626,[],[],“Other”
+627,[],[],“Other”
+628,[],[],“Other”
+629,[],['Limitation of liability'],“Limitation of liability”
+630,[],[],“Other”
+631,[],[],“Other”
+632,[],[],“Other”
+633,[],[],“Other”
+634,[],['Contract by using'],“Contract by using”
+635,[],[],“Other”
+636,[],[],“Other”
+637,[],[],“Other”
+638,['Unilateral termination'],['Arbitration'],Arbitration
+639,[],[],“Other”
+640,[],[],“Other”
+641,[],[],“Other”
+642,[],[],“Other”
+643,[],[],“Other”
+644,[],[],“Other”
+645,[],[],“Other”
+646,[],[],“Other
+647,[],[],“Other”
+648,['Limitation of liability'],['Arbitration'],Arbitration
+649,['Limitation of liability'],[],“Other”
+650,[],[],“Other”
+651,['Unilateral change'],[],“Other”
+652,['Unilateral change'],[],“Other”
+653,['Unilateral change'],[],“Other”
+654,['Contract by using'],[],“Other”
+655,[],[],“Other”
+656,[],[],Other
+657,[],[],“Other”
+658,[],[],“Other”
+659,[],[],“Other”
+660,[],[],“Other”
+661,[],[],Other
+662,[],[],“Other”
+663,[],[],“Other”
+664,[],[],“Other”
+665,[],[],“Other”
+666,['Contract by using'],[],“Other”
+667,[],[],“Other”
+668,['Contract by using'],[],“Other”
+669,[],['Unilateral termination'],“Unilateral termination”
+670,[],[],“Other”
+671,[],['Arbitration'],Arbitration
+672,[],[],“Other”
+673,[],[],Other
+674,[],[],“Other”
+675,[],['Contract by using'],“Contract by using”
+676,[],['Contract by using'],“Contract by using”
+677,[],[],“Other”
+678,[],[],“Other”
+679,['Unilateral change'],[],“Other”
+680,[],[],“Other”
+681,[],[],“Other”
+682,['Contract by using'],[],“Other”
+683,[],[],Other
+684,[],[],“Other”
+685,[],[],“Other”
+686,[],[],“Other”
+687,[],[],“Other”
+688,[],[],“Other”
+689,[],[],“Other”
+690,[],[],Other
+691,[],[],“Other”
+692,[],[],“Other”
+693,[],[],“Other”
+694,[],[],“Other”
+695,[],[],“Other”
+696,[],[],“Other”
+697,[],[],“Other”
+698,[],[],“Other”
+699,[],[],“Other”
+700,[],['Unilateral termination'],“Unilateral termination
+701,[],[],"“You are responsible for protecting your own data, and that any data you upload or share with us is your sole responsibility.”"
+702,[],[],“Other”
+703,[],[],“Other”
+704,[],[],“Other”
+705,[],['Limitation of liability'],“Limitation of liability”
+706,[],['Limitation of liability'],“Limitation of liability”
+707,[],[],“Other”
+708,[],[],“Taxation”
+709,[],[],“Other”
+710,[],[],Other
+711,[],[],Other
+712,[],[],Other
+713,[],[],Other
+714,[],[],“Other”
+715,[],[],Other
+716,[],[],Other
+717,[],['Unilateral change'],“Unilateral change”
+718,[],[],“Other”
+719,[],[],“Other”
+720,[],[],“Other”
+721,['Content removal'],['Unilateral change'],“Unilateral change”
+722,[],[],“Other”
+723,[],[],“Other”
+724,[],[],“Other”
+725,[],[],“Other”
+726,[],[],"“The right to use the content for commercial purposes, the right to remove content, the right to access the content, and the right to withdraw content.”"
+727,[],[],“Other”
+728,[],['Unilateral change'],“Unilateral change”
+729,[],[],“Other”
+730,[],[],“Other”
+731,[],[],“Other”
+732,[],[],“Other”
+733,[],['Unilateral change'],“Unilateral change”
+734,[],[],“Other
+735,[],[],“Other”
+736,[],[],“Other”
+737,[],[],“Other”
+738,[],['Content removal'],“Content removal”
+739,"['Unilateral change', 'Unilateral termination']",[],“Other”
+740,[],[],“Other”
+741,['Unilateral termination'],[],Other
+742,[],[],“Other”
+743,[],[],“Other”
+744,[],[],“Other”
+745,[],[],“Other”
+746,[],[],“Other”
+747,[],[],“Other”
+748,[],['Content removal'],“Content removal
+749,[],[],“Other”
+750,['Limitation of liability'],[],“Other”
+751,['Limitation of liability'],[],“Other”
+752,[],[],“Other”
+753,[],[],Other
+754,[],[],“Other”
+755,[],['Content removal'],“Content removal”
+756,[],[],“Other”
+757,['Limitation of liability'],[],“Other”
+758,[],[],Other
+759,['Unilateral change'],[],“Other”
+760,['Unilateral change'],['Limitation of liability'],“Limitation of liability”
+761,"['Unilateral change', 'Unilateral termination']",['Content removal'],“Content removal
+762,[],[],“Other”
+763,[],[],“Other”
+764,[],[],“Other”
+765,[],[],“Other”
+766,[],[],“Other”
+767,[],[],“Other”
+768,['Limitation of liability'],[],“Other”
+769,[],[],“Other”
+770,[],['Limitation of liability'],“Limitation of liability”
+771,['Limitation of liability'],[],“Other”
+772,['Limitation of liability'],['Limitation of liability'],“Limitation of liability
+773,[],[],“Other”
+774,[],[],“Other”
+775,['Unilateral termination'],[],Other
+776,['Unilateral termination'],['Unilateral termination'],“Unilateral termination”
+777,[],['Unilateral termination'],“Unilateral termination”
+778,[],[],"“the terms of this agreement, the content of this site, and the services provided.”"
+779,[],[],Other
+780,[],[],“Other”
+781,[],[],“Other”
+782,[],['Limitation of liability'],“Limitation of Liability”
+783,[],[],Other
+784,"['Choice of law', 'Jurisdiction']",['Jurisdiction'],“Jurisdiction
+785,['Choice of law'],['Choice of law'],“Choice of law
+786,['Jurisdiction'],['Jurisdiction'],Jurisdiction
+787,['Choice of law'],['Contract by using'],“Contract by using
+788,['Jurisdiction'],['Jurisdiction'],“Jurisdiction
+789,[],[],“Other”
+790,[],[],“Other”
+791,[],['Arbitration'],Arbitration
+792,[],[],Other
+793,[],[],“Other”
+794,[],[],“Other”
+795,[],[],“Other”
+796,[],[],“Assignment”
+797,[],[],Other
+798,['Unilateral change'],['Unilateral change'],“Unilateral change”
+799,[],['Unilateral termination'],“Unilateral termination”
+800,[],[],“Other”
+801,[],[],Other
+802,[],[],"“use our services, and we will not be liable for any damages.”"
+803,[],[],“Other”
+804,[],[],Other
+805,[],[],Other
+806,[],[],Other
+807,[],[],Other
+808,[],[],“Other”
+809,[],['Content removal'],“Content removal
+810,[],[],“Other”
+811,[],[],“Other”
+812,[],[],“Other”
+813,[],[],“Other”
+814,[],[],“Other”
+815,[],[],Other
+816,[],[],Other
+817,[],[],“Other”
+818,[],[],“Other”
+819,[],[],“Other”
+820,[],[],“Other”
+821,[],['Content removal'],“Content removal”
+822,[],[],“Other”
+823,[],[],“Data removal
+824,[],[],“Other”
+825,[],[],“Other”
+826,[],[],“Other”
+827,[],[],“Other”
+828,[],['Unilateral change'],“Unilateral change”
+829,[],[],Other
+830,[],[],Other
+831,[],['Content removal'],“Content removal”
+832,[],[],“Other”
+833,[],[],“Other”
+834,[],[],“Other”
+835,[],[],“Other”
+836,[],[],“Other”
+837,[],[],“Other”
+838,[],['Content removal'],“Content removal”
+839,[],[],Other
+840,[],[],“Other”
+841,[],[],“Other”
+842,[],[],“Other”
+843,[],[],“Other”
+844,[],[],“Other”
+845,[],[],“Other”
+846,[],[],“Other”
+847,[],[],“Other”
+848,[],[],“Other”
+849,[],[],Other
+850,[],['Content removal'],“Content removal
+851,[],[],“Other”
+852,[],[],“email: youremail@example.com”
+853,[],[],“Other”
+854,[],[],“Other”
+855,['Contract by using'],[],“Other”
+856,['Unilateral change'],[],“Other”
+857,[],[],“Other”
+858,['Contract by using'],[],“Revision”
+859,[],['Unilateral termination'],“Unilateral termination”
+860,[],['Arbitration'],“Arbitration”
+861,[],[],“Other”
+862,[],[],“Other”
+863,"['Unilateral change', 'Unilateral termination']",[],“Other”
+864,[],[],“Other
+865,[],[],“Other”
+866,[],[],“Other”
+867,[],['Unilateral termination'],“Unilateral termination”
+868,[],[],“Other”
+869,[],[],“Other”
+870,[],[],“Other”
+871,[],[],“Other”
+872,[],[],“Other”
+873,[],[],“Other”
+874,[],[],“Other”
+875,[],[],“Other”
+876,[],[],“Other”
+877,[],[],Other
+878,[],[],Other
+879,[],['Arbitration'],Arbitration
+880,[],[],“Other”
+881,[],['Arbitration'],Arbitration
+882,[],[],“Other”
+883,[],[],Other
+884,[],[],“Other”
+885,[],[],“Other”
+886,[],[],“Other”
+887,[],[],“Other”
+888,[],[],“Other”
+889,[],[],“Other”
+890,[],[],“Other”
+891,[],[],“Other”
+892,[],['Arbitration'],Arbitration
+893,[],[],“Other”
+894,[],[],“Other”
+895,[],[],“Other”
+896,[],[],“Other”
+897,[],[],“Other”
+898,[],[],“Other”
+899,[],[],“Other”
+900,['Unilateral termination'],[],“Other”
+901,['Unilateral change'],[],“Other”
+902,['Limitation of liability'],['Arbitration'],Arbitration
+903,[],[],“Other”
+904,[],[],“Other”
+905,[],[],“Other”
+906,['Unilateral change'],[],“Other”
+907,[],[],“Other”
+908,[],[],“Other”
+909,[],[],“Taxation”
+910,[],[],“Other”
+911,[],[],Other
+912,['Limitation of liability'],[],Other
+913,['Limitation of liability'],['Arbitration'],Arbitration
+914,[],[],“Other”
+915,[],[],“Other”
+916,[],[],“Other”
+917,[],['Arbitration'],Arbitration
+918,[],[],“Other”
+919,[],['Arbitration'],Arbitration
+920,[],[],Other
+921,[],[],“Other”
+922,[],[],“Other”
+923,[],[],“Other”
+924,['Limitation of liability'],['Limitation of liability'],“Limitation of liability
+925,[],[],“Other”
+926,[],[],“Other”
+927,[],[],“Other”
+928,[],[],“Other”
+929,[],[],“Other”
+930,[],[],“Other”
+931,[],[],“Other”
+932,[],[],“Other”
+933,[],[],“Other”
+934,[],['Limitation of liability'],“Limitation of liability”
+935,['Limitation of liability'],['Arbitration'],Arbitration
+936,['Limitation of liability'],['Limitation of liability'],“Limitation of liability
+937,[],[],Other
+938,[],[],“Other”
+939,['Unilateral termination'],['Arbitration'],Arbitration
+940,['Unilateral termination'],[],“Termination”
+941,[],[],“Other”
+942,[],[],Other
+943,[],[],“Copyright”
+944,[],[],“Other”
+945,[],[],“Other”
+946,[],['Contract by using'],“Contract by using”
+947,[],[],Other
+948,[],[],“Other”
+949,[],[],“Other”
+950,[],[],“Other”
+951,[],[],“Other”
+952,[],['Contract by using'],“Contract by using”
+953,['Contract by using'],['Contract by using'],“Contract by using
+954,[],[],Other
+955,[],[],"“the name of the copyrighted work, the following description of the work, and a link to the infringing material.”"
+956,[],[],“Other”
+957,[],[],“Copyright”
+958,[],[],Other
+959,[],[],Other
+960,[],[],"“we will promptly delete the disputed use.”
+"
+961,[],[],“Other”
+962,[],[],“Other”
+963,[],[],“Support@duolingo.com”
+964,[],[],Other
+965,['Choice of law'],['Contract by using'],“Contract by using”
+966,['Arbitration'],['Arbitration'],Arbitration
+967,[],[],“Other”
+968,[],[],“Other”
+969,[],['Arbitration'],“Arbitration”
+970,[],['Jurisdiction'],Jurisdiction
+971,[],[],“Other”
+972,[],['Arbitration'],Arbitration
+973,[],['Arbitration'],Arbitration
+974,[],[],“Other”
+975,[],[],“Other”
+976,[],['Arbitration'],“Arbitration”
+977,[],[],“Other”
+978,[],[],“Other”
+979,[],[],“Other”
+980,[],['Arbitration'],Arbitration
+981,[],[],“Other”
+982,[],['Arbitration'],“Arbitration
+983,['Jurisdiction'],['Arbitration'],Arbitration
+984,[],['Arbitration'],Arbitration
+985,[],[],“Other”
+986,[],[],“Translation”
+987,[],[],“Other”
+988,[],[],“Other”
+989,[],[],“Other”
+990,[],[],Other
+991,[],[],“Other”
+992,[],[],“Other”
+993,[],[],“Other”
+994,[],[],“Other”
+995,[],[],“Other”
+996,['Contract by using'],['Contract by using'],“Contract by using
+997,[],['Unilateral termination'],“Unilateral termination”
+998,[],[],“Other”
+999,['Unilateral termination'],['Arbitration'],Arbitration
+1000,[],[],“Other”
+1001,[],[],“Other”
+1002,[],[],“Other”
+1003,['Unilateral change'],[],“Other”
+1004,[],[],“Other”
+1005,['Contract by using'],[],“Other”
+1006,[],['Contract by using'],“Contract by using”
+1007,[],['Arbitration'],Arbitration
+1008,[],[],“Other”
+1009,[],[],“Other”
+1010,[],[],“Other”
+1011,[],[],“Other”
+1012,[],[],“Other”
+1013,[],['Arbitration'],Arbitration
+1014,[],[],Other
+1015,[],[],“Other”
+1016,[],[],Other
+1017,[],[],“Other”
+1018,[],[],“Other”
+1019,['Limitation of liability'],[],“Other”
+1020,[],[],“Other”
+1021,[],[],“Other”
+1022,[],[],“Other”
+1023,[],[],“Other”
+1024,[],[],“Other”
+1025,[],[],“Other”
+1026,[],[],“Other”
+1027,[],[],“Other”
+1028,[],[],“Other”
+1029,[],['Limitation of liability'],“Limitation of liability”
+1030,[],[],“Other”
+1031,[],[],“Other”
+1032,[],[],“Other”
+1033,[],[],“Other”
+1034,[],[],“Other”
+1035,[],[],“Other”
+1036,[],[],“Other”
+1037,[],[],“Other”
+1038,[],[],“Other”
+1039,[],[],“Other”
+1040,[],[],“Other”
+1041,[],[],Other
+1042,[],['Arbitration'],Arbitration
+1043,[],['Arbitration'],Arbitration
+1044,[],[],“Other”
+1045,[],[],“Other”
+1046,[],['Arbitration'],Arbitration
+1047,[],[],Other
+1048,[],['Content removal'],“Content removal
+1049,['Content removal'],['Arbitration'],Arbitration
+1050,[],[],Other
+1051,[],[],“Other”
+1052,[],[],“Other”
+1053,[],[],“Other”
+1054,[],[],“Other”
+1055,[],[],“Other”
+1056,[],[],“Other”
+1057,[],[],Other
+1058,[],[],“Other”
+1059,[],['Limitation of liability'],“Limitation of liability”
+1060,[],['Limitation of liability'],“Limitation of liability”
+1061,[],[],“Other”
+1062,[],[],“Other”
+1063,[],[],“Other”
+1064,['Unilateral change'],['Jurisdiction'],Jurisdiction
+1065,[],[],“Other”
+1066,[],[],“Other”
+1067,[],[],“Other”
+1068,[],[],“Other”
+1069,[],[],“Other”
+1070,[],[],“Other”
+1071,[],[],Other
+1072,[],[],“Other”
+1073,[],[],“Other”
+1074,[],['Limitation of liability'],“Limitation of liability”
+1075,[],[],“Other”
+1076,[],[],“Transfer”
+1077,[],[],“Other
+1078,[],[],“Other”
+1079,[],[],“Other”
+1080,[],[],“Other”
+1081,[],[],“Other”
+1082,[],[],“Other”
+1083,['Limitation of liability'],['Arbitration'],Arbitration
+1084,['Limitation of liability'],['Limitation of liability'],“Limitation of liability”
+1085,['Limitation of liability'],['Jurisdiction'],Jurisdiction
+1086,[],[],“Other”
+1087,['Limitation of liability'],['Unilateral change'],“Unilateral change”
+1088,['Limitation of liability'],[],“Other”
+1089,[],[],“Other”
+1090,[],['Arbitration'],Arbitration
+1091,['Choice of law'],['Contract by using'],“Contract by using”
+1092,[],[],“Other”
+1093,['Arbitration'],['Arbitration'],Arbitration
+1094,[],['Arbitration'],Arbitration
+1095,[],[],Other
+1096,[],['Arbitration'],Arbitration
+1097,[],[],“Other”
+1098,[],[],“Other”
+1099,[],['Arbitration'],Arbitration
+1100,[],[],“Other”
+1101,[],[],Other
+1102,[],[],Other
+1103,[],['Jurisdiction'],Jurisdiction
+1104,[],[],“Other”
+1105,[],[],“Other”
+1106,[],[],“Other”
+1107,[],[],“Other”
+1108,[],['Arbitration'],"Arbitration
+"
+1109,[],['Contract by using'],“Contract by using”
+1110,[],[],“Other”
+1111,[],[],“Other”
+1112,[],[],“Other”
+1113,[],[],“Other”
+1114,[],[],Other
+1115,[],['Contract by using'],“Contract by using”
+1116,[],[],“Other”
+1117,[],['Unilateral change'],“Unilateral change”
+1118,['Contract by using'],['Contract by using'],“Contract by using
+1119,['Contract by using'],['Contract by using'],“Contract by using
+1120,[],[],Other
+1121,[],[],“Other”
+1122,['Contract by using'],[],“Other”
+1123,[],[],“Other”
+1124,[],[],“Other”
+1125,[],[],“Other”
+1126,[],['Contract by using'],“Contract by using”
+1127,[],[],“Other”
+1128,[],[],“Other”
+1129,[],[],“Other”
+1130,[],[],“Other”
+1131,[],[],“Other”
+1132,[],[],Other
+1133,[],[],“Other”
+1134,[],[],“Other”
+1135,[],[],“Other”
+1136,[],[],“Other”
+1137,[],[],“Other”
+1138,[],[],“Other”
+1139,[],[],Other
+1140,['Unilateral change'],[],“Other”
+1141,['Unilateral change'],[],“Other”
+1142,['Contract by using'],[],“Other”
+1143,[],[],“Other”
+1144,[],[],“Other”
+1145,[],[],Other
+1146,[],[],Other
+1147,[],[],“Other”
+1148,[],[],Other
+1149,[],[],“Other”
+1150,[],[],Other
+1151,[],[],“Other”
+1152,[],['Limitation of liability'],“Limitation of liability”
+1153,[],['Content removal'],“Content removal
+1154,[],[],Other
+1155,[],[],Other
+1156,[],[],“Other”
+1157,[],[],Other
+1158,[],[],Other
+1159,[],[],“Other”
+1160,[],[],“Other”
+1161,[],[],“Other”
+1162,[],[],“Other
+1163,[],[],“Other”
+1164,[],[],“Other”
+1165,[],[],“Other”
+1166,[],['Content removal'],“Content removal”
+1167,[],[],“Other”
+1168,[],[],“Other
+1169,[],[],“Other”
+1170,[],[],“License
+1171,[],[],“Other”
+1172,[],[],“Other”
+1173,[],[],“Other”
+1174,[],[],“Other”
+1175,[],[],“Other”
+1176,[],[],“Other”
+1177,[],[],“Other”
+1178,[],[],Other
+1179,[],[],“Other”
+1180,[],[],“Other”
+1181,[],[],“We guarantee Evernote will not allow you to use our software in any way that violates these terms.”
+1182,[],['Arbitration'],"Arbitration
+"
+1183,[],[],“Other”
+1184,[],[],“Other
+1185,[],[],“Other”
+1186,[],[],“Other”
+1187,[],[],“Other”
+1188,[],[],“Other”
+1189,[],[],“Other”
+1190,['Content removal'],['Arbitration'],Arbitration
+1191,[],[],Other
+1192,[],[],Other
+1193,[],['Contract by using'],“Contract by using”
+1194,[],[],“Other”
+1195,[],[],Other
+1196,['Unilateral change'],[],“Other”
+1197,[],[],“Other”
+1198,['Unilateral change'],[],“Other”
+1199,[],[],“Other”
+1200,['Limitation of liability'],[],“Other”
+1201,['Limitation of liability'],['Limitation of liability'],“Limitation of liability”
+1202,[],[],“Other”
+1203,[],[],“Other”
+1204,[],[],Other
+1205,[],[],“Other”
+1206,[],[],“Other”
+1207,[],['Contract by using'],“Contract by using”
+1208,[],[],Other
+1209,[],[],“Other”
+1210,[],[],“Other”
+1211,[],[],Other
+1212,[],[],“Other”
+1213,[],[],“Other”
+1214,[],[],“Other”
+1215,[],[],“Other”
+1216,[],[],“Other”
+1217,[],[],“Other”
+1218,[],[],“Other”
+1219,[],[],“Other”
+1220,[],[],“Other”
+1221,[],[],"“We will remove infringing content, and we will take other appropriate steps to address copyright or other intellectual property violations.”"
+1222,[],[],“Other”
+1223,[],['Content removal'],“Content removal”
+1224,[],[],“Other”
+1225,[],[],“Other”
+1226,[],[],“Other”
+1227,[],[],“Other”
+1228,[],['Content removal'],“Content removal
+1229,[],[],Other
+1230,[],['Contract by using'],“Contract by using”
+1231,[],[],“Other”
+1232,[],[],“Other”
+1233,[],[],Other
+1234,[],[],“Deactivation”
+1235,[],[],“Other”
+1236,[],['Unilateral termination'],“Unilateral termination”
+1237,['Unilateral termination'],['Arbitration'],Arbitration
+1238,[],['Arbitration'],Arbitration
+1239,[],[],“Other”
+1240,[],['Unilateral termination'],“Unilateral termination”
+1241,[],[],“Other
+1242,[],[],“Other”
+1243,[],[],"“Other"""
+1244,[],[],“Other”
+1245,[],[],“Other”
+1246,[],[],“Other”
+1247,[],[],Other
+1248,[],[],“Other
+1249,[],[],“Other”
+1250,[],[],“Other”
+1251,[],[],“Other”
+1252,['Limitation of liability'],[],“Other”
+1253,[],[],“Other”
+1254,[],[],Other
+1255,[],[],Other
+1256,[],[],“Other”
+1257,['Limitation of liability'],['Arbitration'],Arbitration
+1258,[],[],“Other”
+1259,[],[],“Other”
+1260,[],['Limitation of liability'],“Limitation of liability
+1261,[],[],“Other”
+1262,[],[],Other
+1263,[],[],“Other”
+1264,[],[],“Other”
+1265,[],[],“Other”
+1266,[],[],“Other”
+1267,['Limitation of liability'],[],“Other”
+1268,[],[],“Other”
+1269,['Limitation of liability'],[],“Other
+1270,[],[],“Other”
+1271,[],[],“Other”
+1272,[],['Limitation of liability'],“Limitation of liability”
+1273,[],[],Other
+1274,[],[],Other
+1275,[],[],Other
+1276,[],[],Other
+1277,[],[],“Other”
+1278,[],[],Other
+1279,[],[],Other
+1280,[],[],Other
+1281,[],[],Other
+1282,[],[],Other
+1283,[],[],“Other”
+1284,[],['Jurisdiction'],Jurisdiction
+1285,[],['Arbitration'],Arbitration
+1286,[],[],“Other”
+1287,[],[],“Other”
+1288,[],[],“Other
+1289,['Choice of law'],['Contract by using'],“Contract by using”
+1290,['Choice of law'],['Contract by using'],“Contract by using”
+1291,['Choice of law'],['Contract by using'],“Contract by using”
+1292,[],[],“Other”
+1293,[],[],“You should consult with a legal professional.”
+1294,[],[],Other
+1295,[],[],“Other”
+1296,[],[],“Other”
+1297,[],['Arbitration'],Arbitration
+1298,[],[],“Other”
+1299,[],[],“Other”
+1300,[],[],“Other”
+1301,['Jurisdiction'],['Jurisdiction'],Jurisdiction
+1302,['Jurisdiction'],['Jurisdiction'],Jurisdiction
+1303,['Jurisdiction'],['Choice of law'],“Choice of law
+1304,['Jurisdiction'],['Jurisdiction'],“Jurisdiction”
+1305,['Jurisdiction'],['Jurisdiction'],“Jurisdiction
+1306,['Jurisdiction'],['Jurisdiction'],“Jurisdiction
+1307,[],['Arbitration'],Arbitration
+1308,[],['Arbitration'],Arbitration
+1309,[],[],“Other”
+1310,['Arbitration'],['Arbitration'],Arbitration
+1311,[],[],“Other”
+1312,[],[],"“Other"""
+1313,[],['Arbitration'],“Arbitration”
+1314,[],['Arbitration'],“Arbitration”
+1315,[],['Arbitration'],Arbitration
+1316,[],['Arbitration'],Arbitration
+1317,[],[],“Other”
+1318,[],['Arbitration'],“Arbitration”
+1319,[],['Arbitration'],“Arbitration”
+1320,[],['Arbitration'],“Arbitration”
+1321,[],['Arbitration'],“Arbitration”
+1322,[],['Arbitration'],Arbitration
+1323,[],[],“Other”
+1324,[],['Arbitration'],“Arbitration”
+1325,[],['Arbitration'],Arbitration
+1326,[],[],“Other”
+1327,[],[],Other
+1328,[],['Arbitration'],Arbitration
+1329,[],['Arbitration'],Arbitration
+1330,[],[],“Other”
+1331,[],['Arbitration'],“Arbitration”
+1332,[],[],“Other”
+1333,[],[],“Other”
+1334,['Limitation of liability'],[],“Other”
+1335,[],[],“Other”
+1336,[],[],Other
+1337,[],['Arbitration'],Arbitration
+1338,[],[],“Other”
+1339,[],[],Other
+1340,[],[],Other
+1341,[],['Contract by using'],“Contract by using”
+1342,[],[],“Other”
+1343,[],[],“Other”
+1344,[],[],“Other”
+1345,[],[],“Other”
+1346,[],[],“Other”
+1347,[],['Contract by using'],“Contract by using”
+1348,[],[],“Other”
+1349,[],['Contract by using'],“Contract by using”
+1350,['Contract by using'],[],“Other
+1351,[],[],“Other”
+1352,[],[],“Other”
+1353,[],['Jurisdiction'],Jurisdiction
+1354,[],['Jurisdiction'],Jurisdiction
+1355,[],[],“Other”
+1356,[],[],“Other”
+1357,[],[],“Other
+1358,[],['Arbitration'],“Arbitration”
+1359,[],['Arbitration'],Arbitration
+1360,[],[],Other
+1361,[],[],“Other”
+1362,[],[],Other
+1363,[],[],“Other”
+1364,[],[],“Other”
+1365,[],[],“share any of your data with anyone.”
+1366,[],[],“Other”
+1367,[],['Arbitration'],Arbitration
+1368,[],['Limitation of liability'],“Limitation of liability”
+1369,[],['Unilateral change'],“Unilateral change”
+1370,[],['Unilateral change'],“Unilateral change”
+1371,[],[],“Manipulation of Price”
+1372,[],['Content removal'],“Content removal
+1373,[],[],“Other”
+1374,[],['Unilateral change'],“Unilateral change”
+1375,[],['Content removal'],“Content removal
+1376,[],['Content removal'],“Content removal”
+1377,[],['Arbitration'],Arbitration
+1378,[],['Content removal'],“Content removal”
+1379,[],['Jurisdiction'],Jurisdiction
+1380,[],[],“Intellectual property rights”
+1381,[],[],“Other”
+1382,[],[],“Other”
+1383,[],[],“Other”
+1384,[],[],“Data removal
+1385,[],[],“Other”
+1386,[],[],“Other”
+1387,['Unilateral termination'],['Limitation of liability'],“Limitation of liability”
+1388,"['Content removal', 'Unilateral termination']",['Arbitration'],Arbitration
+1389,[],['Arbitration'],Arbitration
+1390,[],[],“Other”
+1391,['Unilateral termination'],['Arbitration'],Arbitration
+1392,['Unilateral termination'],[],“Other”
+1393,[],[],“Other”
+1394,[],[],“Other”
+1395,[],[],“Other”
+1396,['Unilateral change'],[],“Other”
+1397,[],[],“Payment by using”
+1398,[],[],“Other”
+1399,[],[],“Late fees”
+1400,[],['Arbitration'],Arbitration
+1401,[],[],“Other”
+1402,[],[],“Other”
+1403,[],[],“you are responsible for ensuring that the items you list are accurate and comply with all applicable laws and regulations.”
+1404,[],[],“Other”
+1405,[],[],“Other”
+1406,[],[],Other
+1407,[],[],“Other”
+1408,[],['Content removal'],“Content removal”
+1409,['Unilateral change'],[],“Other”
+1410,[],[],“Other”
+1411,[],[],“Other”
+1412,[],[],“Other”
+1413,[],[],Other
+1414,[],[],“Other”
+1415,[],[],Other
+1416,[],[],“Other”
+1417,[],[],“Other”
+1418,[],[],“Other”
+1419,[],[],Other
+1420,[],[],“Other”
+1421,[],[],Other
+1422,[],[],“Other”
+1423,[],[],"“we are not responsible for any damage to your property, or any loss of data.”"
+1424,[],[],“Other”
+1425,[],['Contract by using'],“Contract by using
+1426,[],[],“Other”
+1427,[],[],Other
+1428,[],['Jurisdiction'],Jurisdiction
+1429,[],[],“Other”
+1430,[],[],“Other”
+1431,[],[],“Other”
+1432,[],[],“Other”
+1433,[],[],“Other”
+1434,[],[],“Other”
+1435,[],[],“Other”
+1436,[],[],“Other”
+1437,[],[],“Other”
+1438,[],[],“Other”
+1439,[],[],“Other”
+1440,[],[],“Other”
+1441,[],[],“Other”
+1442,[],[],“Other”
+1443,[],[],“Other”
+1444,[],[],Other
+1445,[],[],“Other”
+1446,[],[],Other
+1447,[],[],Other
+1448,[],[],“Other”
+1449,"['Unilateral change', 'Unilateral termination']",[],“Other”
+1450,[],[],“Other”
+1451,[],[],“Other”
+1452,[],[],“Other”
+1453,[],[],“Other”
+1454,[],[],“Other”
+1455,[],[],“Trademark
+1456,[],[],Other
+1457,[],[],Other
+1458,[],[],“Other”
+1459,[],[],“Other”
+1460,[],[],“Other”
+1461,[],[],“Other”
+1462,[],[],Other
+1463,[],[],“Other”
+1464,[],[],Other
+1465,[],[],“Other”
+1466,[],['Arbitration'],"Arbitration
+"
+1467,[],['Arbitration'],Arbitration
+1468,[],[],“Other”
+1469,[],[],“Other”
+1470,[],[],“Other”
+1471,[],[],“Other”
+1472,[],[],Other
+1473,[],['Jurisdiction'],Jurisdiction
+1474,[],['Jurisdiction'],Jurisdiction
+1475,[],[],“Other”
+1476,[],['Content removal'],“Content removal”
+1477,[],[],“Other”
+1478,[],['Limitation of liability'],“Limitation of liability”
+1479,[],[],“Other”
+1480,[],[],“Other”
+1481,[],[],“Other”
+1482,[],[],“Other”
+1483,[],[],“Other”
+1484,[],[],“Other”
+1485,[],[],“Other”
+1486,[],[],“Other”
+1487,[],[],“Other”
+1488,[],[],“Other”
+1489,[],[],“Return policy”
+1490,[],[],"“You are required to return the product to us, and in return, we will provide a shipping label that you must use.”"
+1491,[],['Arbitration'],Arbitration
+1492,[],[],Other
+1493,[],[],“Other”
+1494,[],[],“Other”
+1495,[],[],“Other”
+1496,[],[],“Other”
+1497,[],[],“Other”
+1498,[],['Arbitration'],Arbitration
+1499,[],['Limitation of liability'],“Limitation of liability”
+1500,[],['Arbitration'],Arbitration
+1501,[],[],“Other”
+1502,[],[],“Other”
+1503,[],[],“Other”
+1504,[],[],Other
+1505,[],[],“Other”
+1506,[],['Arbitration'],Arbitration
+1507,[],[],“Other”
+1508,['Unilateral termination'],['Arbitration'],Arbitration
+1509,[],[],“Disclaimers
+1510,[],[],“Other”
+1511,[],[],“Other”
+1512,[],[],“Other”
+1513,[],[],“Other”
+1514,[],[],“Other”
+1515,['Limitation of liability'],['Arbitration'],Arbitration
+1516,[],[],“Other”
+1517,['Limitation of liability'],['Limitation of liability'],“Limitation of liability
+1518,[],['Arbitration'],Arbitration
+1519,[],[],“Other”
+1520,[],['Limitation of liability'],“Limitation of liability”
+1521,[],[],Other
+1522,[],[],“Other”
+1523,[],[],“Other
+1524,['Choice of law'],['Contract by using'],“Contract by using
+1525,['Arbitration'],['Arbitration'],Arbitration
+1526,[],[],“Other”
+1527,[],['Arbitration'],“Arbitration”
+1528,[],[],“Other”
+1529,[],[],“Other”
+1530,[],['Arbitration'],Arbitration
+1531,[],['Arbitration'],Arbitration
+1532,[],[],“Other”
+1533,[],['Arbitration'],Arbitration
+1534,[],['Arbitration'],Arbitration
+1535,[],['Arbitration'],“Arbitration”
+1536,[],['Arbitration'],“Arbitration”
+1537,[],[],“Other”
+1538,[],[],“Other”
+1539,[],['Arbitration'],Arbitration
+1540,[],['Arbitration'],Arbitration
+1541,[],[],“Other”
+1542,[],['Arbitration'],“Arbitration”
+1543,[],['Arbitration'],“Arbitration”
+1544,[],[],Other
+1545,[],['Jurisdiction'],Jurisdiction
+1546,[],[],Other
+1547,[],[],“Other”
+1548,[],['Arbitration'],Arbitration
+1549,[],['Arbitration'],Arbitration
+1550,[],['Arbitration'],Arbitration
+1551,[],[],Other
+1552,[],['Arbitration'],Arbitration
+1553,[],[],“Other”
+1554,[],['Arbitration'],Arbitration
+1555,[],['Arbitration'],“Arbitration”
+1556,[],[],“Other”
+1557,[],[],“Other”
+1558,[],['Arbitration'],“Arbitration”
+1559,[],['Arbitration'],“Arbitration”
+1560,[],['Arbitration'],“Arbitration”
+1561,[],[],“Other”
+1562,[],['Arbitration'],Arbitration
+1563,[],['Arbitration'],Arbitration
+1564,[],['Arbitration'],Arbitration
+1565,[],[],“Other”
+1566,[],[],“Opt-out notice”
+1567,[],[],Other
+1568,[],[],“Other”
+1569,[],[],“Other”
+1570,[],[],Other
+1571,[],['Arbitration'],“Arbitration”
+1572,[],[],“Other”
+1573,[],[],“Other”
+1574,[],['Arbitration'],“Arbitration”
+1575,[],['Arbitration'],Arbitration
+1576,[],[],“Other”
+1577,[],[],“Other”
+1578,[],['Unilateral termination'],“Unilateral termination”
+1579,[],[],Other
+1580,['Jurisdiction'],['Jurisdiction'],“Jurisdiction
+1581,['Jurisdiction'],['Jurisdiction'],Jurisdiction
+1582,[],[],“Other”
+1583,[],[],“Other”
+1584,[],[],“Other”
+1585,[],[],“Other”
+1586,[],[],“Other”
+1587,['Unilateral change'],[],“Other”
+1588,['Unilateral change'],[],“Other”
+1589,[],[],“Other”
+1590,[],[],“Other”
+1591,['Contract by using'],[],“Other”
+1592,[],[],“Other”
+1593,[],[],“Other”
+1594,['Unilateral change'],[],“Other”
+1595,[],[],“Other”
+1596,[],[],“Other”
+1597,[],[],Other
+1598,[],[],“Other”
+1599,[],['Contract by using'],“Contract by using”
+1600,[],[],“Other”
+1601,[],['Choice of law'],“Choice of law”
+1602,[],['Arbitration'],Arbitration
+1603,[],['Arbitration'],Arbitration
+1604,[],[],Other
+1605,[],['Arbitration'],Arbitration
+1606,['Jurisdiction'],[],“Other”

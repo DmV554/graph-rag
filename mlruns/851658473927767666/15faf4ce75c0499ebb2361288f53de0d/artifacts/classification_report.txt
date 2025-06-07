@@ -1,0 +1,15 @@
+                         precision    recall  f1-score   support
+
+Limitation of liability       0.04      0.42      0.08        38
+ Unilateral termination       0.04      0.13      0.06        38
+      Unilateral change       0.10      0.16      0.12        38
+        Content removal       0.08      0.38      0.14        13
+      Contract by using       0.13      0.57      0.21        23
+          Choice of law       0.05      0.77      0.09        13
+           Jurisdiction       0.11      0.62      0.19        16
+            Arbitration       0.07      0.86      0.12         7
+
+              micro avg       0.07      0.38      0.11       186
+              macro avg       0.08      0.49      0.13       186
+           weighted avg       0.07      0.38      0.12       186
+            samples avg       0.03      0.04      0.03       186

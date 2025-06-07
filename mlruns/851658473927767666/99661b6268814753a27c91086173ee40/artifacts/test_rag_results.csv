@@ -1,0 +1,201 @@
+text,true_idx,pred_names,model_output
+"last updated date : may 15 , 2017 
+",[],[],Ninguna
+"academia , inc. ( `` academia.edu '' or `` we '' ) offers a social networking service which enables its users , including graduate students and academics , to create academic profile pages and to connect with other users , including graduate students and academics , around the world with the same research interests ( the `` services '' ) through our website , accessible at academia.edu ( the `` site '' ) . 
+",[],[],Ninguna
+"please read carefully the following terms and conditions ( `` terms '' ) and our privacy policy , which may be found at academia.edu/privacy and which is incorporated by reference into these terms . 
+",[],[],Ninguna
+"these terms govern your access to and use of the site , services and collective content ( defined below ) , and constitute a binding legal agreement between you and academia.edu . 
+",[],[],Ninguna
+"arbitration notice : unless you opt out of arbitration within 30 days of the date you first agree to these terms by following the opt-out procedure specified in the `` arbitration '' section below , and except for certain types of disputes described in the `` arbitration `` section below , you agree that disputes between you and academia.edu will be resolved by binding , individual arbitration and you are waiving your right to a trial by jury or to participate as a plaintiff or class member in any purported class action or representative proceeding . 
+",[7],['Arbitration'],Arbitration
+"`` content '' means text , graphics , images , music , software , audio , video , information or other works of authorship . 
+",[],['Content removal'],Content removal
+"`` academia.edu content '' means content that academia.edu makes available through the site or services , including any content licensed from a third party , but excluding member content . 
+",[],"['Limitation of liability', 'Content removal']","Content removal, Limitation of liability"
+"`` member '' means a person who completes academia.edu 's account registration process , as described under the `` account registration '' section below . 
+",[],[],Ninguna
+"`` member content '' means content that a member posts , uploads , publishes , submits or transmits to be made available through the site or services . 
+",[],[],Ninguna
+"`` collective content '' means , collectively , academia.edu content and member content . 
+",[],[],Ninguna
+"certain areas of the site ( and your access to or use of certain services or collective content ) may have different terms and conditions posted or may require you to agree with and accept additional terms and conditions . 
+",[],"['Limitation of liability', 'Contract by using', 'Choice of law']","Contract by using, Limitation of liability, Choice of law"
+"if there is a conflict between these terms and terms and conditions posted for a specific area of the site , services or collective content , the latter terms and conditions will take precedence with respect to your use of or access to that area of the site , services or collective content , as applicable . 
+",[],['Choice of law'],Choice of law
+"you acknowledge and agree that , by accessing or using the site or services or by downloading or posting any content from or on the site or through the services , you are indicating that you have read , and that you understand and agree to be bound by , these terms , whether or not you have registered on or through the site . 
+",[4],"['Limitation of liability', 'Contract by using']","Contract by using, Limitation of liability"
+"if you do not agree to these terms , then you have no right to access or use the site , services or collective content . 
+",[],"['Limitation of liability', 'Choice of law', 'Jurisdiction']","Limitation of liability, Choice of law, Jurisdiction"
+"if you accept or agree to these terms on behalf of a company , university or other legal entity , you represent and warrant that you have the authority to bind that company , university or other legal entity to these terms and , in such event , `` you '' and `` your '' will refer and apply to that company or other legal entity . 
+",[],"['Contract by using', 'Choice of law']","Contract by using, Choice of law"
+"academia.edu reserves the right , at its sole discretion , to modify the site , services and these terms , at any time and without prior notice . 
+",[2],[],Ninguna
+"if we modify these terms we will post the modification on the site or provide you with notice of the modification . 
+",[],[],Ninguna
+"we will also update the `` last updated date '' at the top of these terms . 
+",[],[],Ninguna
+"by continuing to access or use the site or services after we have posted a modification on the site or have provided you with notice of a modification , you are indicating that you agree to be bound by the modified terms . 
+",[4],"['Contract by using', 'Choice of law']","Contract by using, Choice of law"
+"if the modified terms are not acceptable to you , your only recourse is to cease using the site and services . 
+",[],[],Ninguna
+"the site and services are intended solely for persons who are 13 years of age or older . 
+",[],[],Ninguna
+"any access to or use of the site or services by anyone under the age of 13 is expressly prohibited . 
+",[],"['Limitation of liability', 'Unilateral termination', 'Unilateral change']","Limitation of liability, Unilateral termination, Unilateral change"
+"by accessing or using the site or services you represent and warrant that you are 13 years of age or older . 
+",[],[],Ninguna
+"in order to access certain features of the site and services and to post any member content on the site or through the services you must register to create an account ( `` account '' ) and become a member . 
+",[],[],Ninguna
+"you may register directly via the site or by logging into your account with certain third party social media or social networking sites ( `` sns '' ) ( including , but not limited to , facebook ) via the site , as described herein . 
+",[],[],Ninguna
+"if you decide to register through an sns , we will extract the personal information you have provided to the sns ( such as your `` real '' name , email address and other information you make publicly available via the sns ) from the account you have with the applicable sns and use that information to create your account . 
+",[],"['Limitation of liability', 'Content removal']","Content removal, Limitation of liability"
+"the specific information that we extract may depend on the privacy settings you have with the sns . 
+",[],[],Ninguna
+"you hereby consent to our access to and collection of such personal information about you . 
+",[],"['Limitation of liability', 'Unilateral termination', 'Content removal']","Limitation of liability, Unilateral termination, Content removal"
+"during the registration process , you will be required to provide certain information and you will establish a username and a password . 
+",[],[],Ninguna
+"you agree to provide accurate , current and complete information during the registration process and to update such information to keep it accurate , current and complete . 
+",[],[],Ninguna
+"academia.edu reserves the right to suspend or terminate your account if any information provided during the registration process or thereafter proves to be inaccurate , not current or incomplete . 
+",[1],[],Ninguna
+"you are responsible for safeguarding your password . 
+",[],[],Ninguna
+"you agree that you will not disclose your password to any third party and that you will take sole responsibility for any activities or actions under your account , whether or not you have authorized such activities or actions . 
+",[],"['Limitation of liability', 'Unilateral termination', 'Unilateral change']","Limitation of liability, Unilateral termination, Unilateral change"
+"you will immediately notify academia.edu of any unauthorized use of your account . 
+",[],[],Ninguna
+"see academia.edu 's privacy policy at academia.edu/privacy for information and notices concerning academia.edu 's collection and use of your personal information . 
+",[],"['Limitation of liability', 'Content removal']","Limitation of liability, Content removal"
+"academia.edu may offer you the ability to access certain features through purchase of a recurring subscription ( `` subscription '' ) . 
+",[],[],"Subscription, Recurring Payment"
+"when you purchase a subscription or make any other paid feature related purchase via the services ( each , a `` transaction '' ) , you expressly authorize us ( or our third party payment processor , e.g. stripe ) to charge you for such transaction . 
+",[],"['Unilateral termination', 'Contract by using', 'Choice of law', 'Jurisdiction']","Unilateral termination, Contract by using, Choice of law, Jurisdiction"
+"we may ask you to supply additional information relevant to your transaction , including , without limitation , your credit card number , the expiration date of your credit card , your billing address and additional information to verify your identity before completing your transaction ( such information , `` payment information '' ) . 
+",[],[],"Restriction of liability, Information provision, Payment information"
+"you represent and warrant that you have the legal right to use all payment method ( s ) represented by any such payment information . 
+",[],"['Limitation of liability', 'Unilateral termination', 'Unilateral change']","Limitation of liability, Unilateral termination, Unilateral change"
+"when you initiate a transaction , you authorize us to store and continue billing you using your payment information and to provide your payment information to our third party payment processors as needed to complete your transactions . 
+",[],"['Choice of law', 'Jurisdiction']","Choice of law, Jurisdiction"
+"we may also periodically authorize your payment method in anticipation of applicable fees or related charges . 
+",[],[],Ninguna
+"further , as part of our order processing procedures , we may screen orders for fraud or other undesirable activity . 
+",[],[],Ninguna
+"if we feel an order could be fraudulent , unauthorized , or illegal , we reserve the right to refuse to process that order . 
+",[],[],Ninguna
+"your subscription continues until cancelled by you or we terminate your access to or use of the services or the subscription in accordance with these terms . 
+",[],"['Unilateral termination', 'Arbitration']","Unilateral termination, Arbitration"
+"if you elect to purchase an annual or monthly subscription , you will be charged the annual or monthly subscription fee ( `` subscription fee '' ) plus any applicable taxes , at the beginning of your subscription and each year or month thereafter , respectively , at the then-current rate . 
+",[],[],"Subscription fee, Renewal rate"
+"if you elect to purchase an annual subscription , we ( or our third party payment processor ) will automatically charge you on the anniversary of the commencement of your subscription using the payment information you have provided . 
+",[],['Contract by using'],Contract by using
+"if you elect to purchase a monthly subscription , we ( or our third party payment processor ) will automatically charge you each month , on the calendar day corresponding to the commencement of your subscription , using the payment information you have provided . 
+",[],"['Limitation of liability', 'Contract by using', 'Choice of law']","Contract by using, Limitation of liability, Choice of law"
+"in the event your subscription began on a day not contained in a given month , your payment method will be charged on a day in the applicable month or such other day as we deem appropriate . 
+",[],[],Ninguna
+"for example , if you started your subscription on january 31st , your next payment date is likely to be february 28th , and your payment method would be billed on that date . 
+",[],[],Ninguna
+"by agreeing to these terms and electing to purchase a subscription , you acknowledge that your subscription has recurring payment features and you accept responsibility for all recurring payment obligations prior to cancellation of your subscription by you or academia.edu . 
+",[],"['Unilateral termination', 'Contract by using', 'Choice of law', 'Jurisdiction']","Unilateral termination, Contract by using, Choice of law, Jurisdiction"
+"we may offer subscriptions on a free trial basis ( `` free trial '' ) for a specified period of time . 
+",[],[],Ninguna
+"if we offer you a free trial , the specific terms of your free trial will be provided at signup and/or in the promotional materials describing the free trial and your use of the free trial is subject to your compliance with such specific terms . 
+",[],[],Ninguna
+"free trials may not be combined with any other offer . 
+",[],"['Limitation of liability', 'Unilateral change']","Limitation of liability, Unilateral change"
+"except as may otherwise be provided in the specific terms for the free trial offer , free trials are only available to users who have not previously subscribed to the service in connection with which the free trial is being offered . 
+",[],"['Limitation of liability', 'Choice of law']","Limitation of liability, Choice of law"
+"when you agree to a free trial , you are also agreeing to sign up for a subscription as described above and , consequently , unless you cancel your subscription prior to the end of your free trial , we ( or our third party payment processor ) will begin charging your payment method on a recurring basis for the subscription fee ( plus any applicable taxes ) until you cancel your subscription . 
+",[],"['Contract by using', 'Choice of law', 'Jurisdiction']","Contract by using, Choice of law, Jurisdiction"
+"instructions for cancelling your subscription are stated below in the `` cancelling subscriptions '' section . 
+",[],[],Ninguna
+"we reserve the right to modify or terminate free trials at any time , without notice and in our sole discretion . 
+",[1],[],Ninguna
+"you may cancel your subscription at any time . 
+",[],[],Ninguna
+"please note , however , that , except for the thirty ( 30 ) day period following the start of your subscription , all sales are final . 
+",[],['Limitation of liability'],"Limitation of liability, Termination"
+"after the first thirty ( 30 ) day period following the start of your subscription you will not receive a refund of any portion of the subscription fee paid for the then current subscription period at the time of cancellation . 
+",[],['Limitation of liability'],"Limitation of liability, Refund"
+"to cancel , you can either ( i ) email us at support@academia.edu and follow instructions , if any , we provide to you in response to your cancellation request , or ( ii ) initiate a cancellation through your account settings within the services . 
+",[],[],Ninguna
+"you will be responsible for all subscription fees incurred for the then current subscription period . 
+",[],[],Ninguna
+"if you cancel , your cancellation will be effective immediately , but academia.edu will allow you to access the subscription features until the most recently paid-up subscription period ends , and then we will terminate your access . 
+",[],[],Ninguna
+"cancelling your subscription wo n't cancel your account . 
+",[],[],Ninguna
+"see the termination and account cancellation section below for information on canceling your account . 
+",[],[],Ninguna
+"please be aware that any fee or subscription plan is exclusive of all taxes . 
+",[],['Limitation of liability'],"Limitation of liability, Taxes"
+"if at any point any applicable sales use , vat , gst , excise , withholding or similar taxes or levies , whether domestic or foreign , exist , the member is liable for them . 
+",[],[],Ninguna
+"if we believe , in our sole discretion , that any member of academia.edu or academia premium or other academia.edu paid services is in breach of our terms , or act outside of the letter or spirit of our terms , we reserve the right to add limitations to your access to www.academia.edu , up to and including terminating all access to www.academia.edu . 
+","[2, 1]","['Limitation of liability', 'Choice of law', 'Jurisdiction']","Limitation of liability, Choice of law, Jurisdiction"
+"in this case , the member in question is not eligible for any refunds on any portion of their subscription payment . 
+",[],"['Limitation of liability', 'Unilateral termination', 'Unilateral change']","Limitation of liability, Unilateral termination, Unilateral change"
+"the site , services and collective content are protected by copyright , trademark , and other laws of the united states and foreign countries . 
+",[],[],Ninguna
+"you acknowledge and agree that the site , services and collective content , including all associated intellectual property rights , are the exclusive property of academia.edu and its licensors . 
+",[],"['Limitation of liability', 'Contract by using']","Contract by using, Limitation of liability"
+"you will not remove , alter or obscure any copyright , trademark , service mark or other proprietary rights notices incorporated in or accompanying the site , services or collective content . 
+",[],[],"Copyright, Trademark, Proprietary Rights"
+"licenses granted by academia.edu to academia.edu content and member content 
+",[],[],Ninguna
+"subject to your compliance with the terms and conditions of these terms , academia.edu authorizes you to download , view and print any academia.edu content , solely for your personal and non-commercial purposes , and to access and use the site and services , including to download , view and print any member content solely for your personal and non-commercial purposes , and subject to the restrictions set forth in these terms . 
+",[],[],Ninguna
+"you have no right to sublicense the license rights granted in this section . 
+",[],"['Limitation of liability', 'Choice of law']","Limitation of liability, Choice of law"
+"you will not use , copy , adapt , modify , prepare derivative works based upon , distribute , license , sell , transfer , publicly display , publicly perform , transmit , stream , broadcast or otherwise exploit the site , services or collective content , or any related information to which you may have access ; except as expressly permitted in these terms . 
+",[],[],Ninguna
+"no licenses or rights are granted to you by implication or otherwise under any intellectual property rights owned or controlled by academia.edu or its licensors , except for the licenses and rights expressly granted in these terms . 
+",[],"['Limitation of liability', 'Unilateral termination', 'Unilateral change']","Limitation of liability, Unilateral termination, Unilateral change"
+"we may , in our sole discretion , permit members to post , upload , publish , submit or transmit member content . 
+",[],[],Ninguna
+"by making any member content available through the site or services , you hereby grant to academia.edu a worldwide , revocable , non-exclusive , transferable license to exercise any and all rights under copyright , in any medium , and to authorize others to do the same , in connection with operating and providing the services and content to you and to other members , provided that the member content is not sold for a profit . 
+",[],"['Contract by using', 'Choice of law', 'Jurisdiction']","Contract by using, Choice of law, Jurisdiction"
+"academia.edu does not claim any ownership rights in any member content and nothing in these terms will be deemed to restrict any rights that you may have to use and exploit any member content . 
+",[],[],Ninguna
+"you acknowledge and agree that you are solely responsible for all member content that you make available through the site or services . 
+",[],"['Limitation of liability', 'Content removal']","Limitation of liability, Content removal"
+"accordingly , you represent and warrant that : ( i ) you either are the sole and exclusive owner of all member content that you make available through the site or services or you have all rights , licenses , consents and releases that are necessary to grant to academia.edu the rights in such member content , as contemplated under these terms ; and ( ii ) neither the member content nor your posting , uploading , publication , submission or transmittal of the member content or academia.edu 's use of the member content ( or any portion thereof ) on , through or by means of the site or services will infringe , misappropriate or violate a third party 's patent , copyright , trademark , trade secret , moral rights or other intellectual property rights , or rights of publicity or privacy , or result in the violation of any applicable law or regulation . 
+",[],[],"i) you either are the sole and exclusive owner of all member content that you make available through the site or services or you have all rights , licenses , consents and releases that are necessary to grant to academia.edu the rights in such member content, as contemplated under these terms ; and ii ) neither the member content nor your posting, uploading, publication, submission ormittal of the member content or academia.edu 's use of the member content ( or any portion thereof ) on , through or by means of the site or services will infringe , misappropriate or violate a third party’s patent , copyright , trademark , trade secret , moral rights or other intellectual property rights , or rights of publicity or privacy , or result in the violation of any applicable law or regulation."
+"content from social media and networking sites 
+",[],[],Ninguna
+"as part of the functionality of the site and services , you may link your account with online accounts you may have with third party service providers ( each such account , a `` third party account '' ) by either : ( i ) providing your third party account login information to academia.edu through the site or services ; or ( ii ) allowing academia.edu to access your third party account , as is permitted under the applicable terms and conditions that govern your use of each third party account . 
+",[],"['Limitation of liability', 'Content removal', 'Choice of law']","Choice of law, Limitation of liability, Content removal"
+"you represent that you are entitled to disclose your third party account login information to academia.edu and/or to grant academia.edu access to your third party account ( including , but not limited to , for use for the purposes described herein ) , without breach by you of any of the terms and conditions that govern your use of the applicable third party account and without obligating academia.edu to pay any fees or making academia.edu subject to any usage limitations imposed by such third party service providers . 
+",[],"['Limitation of liability', 'Choice of law']","Choice of law, Limitation of liability"
+"by granting academia.edu access to any third party accounts , you understand that academia.edu will access , make available and store ( if applicable ) any content that you have provided to and stored in your third party account ( `` third party account content '' ) so that it is available on and through the site and services via your account . 
+",[],"['Limitation of liability', 'Unilateral change', 'Content removal']","Ninguna, Limitation of liability, Unilateral change, Content removal"
+"unless otherwise specified in these terms , all third party account content , if any , will be considered to be member content for all purposes of these terms . 
+",[],[],Ninguna
+"depending on the third party accounts you choose and subject to the privacy settings that you have set in such third party accounts , personally identifiable information that you post to your third party accounts will be available on and through your account on the site and services . 
+",[],"['Limitation of liability', 'Choice of law', 'Jurisdiction']","Limitation of liability, Choice of law, Jurisdiction"
+"please note that if a third party account or associated service becomes unavailable or academia.edu 's access to such third party account is terminated by the third party service provider , then the third party account content that was available from such third party account will no longer be available on and through the site and services . 
+",[],"['Unilateral termination', 'Content removal']","Content removal, Unilateral termination"
+"you have the ability to disable the connection between your account and your third party accounts , at any time , by accessing your account settings page . 
+",[],"['Limitation of liability', 'Jurisdiction']","Limitation of liability, Jurisdiction"
+"please note that your relationship with the third party service providers associated wth your third party accounts is governed solely by your agreement ( s ) with such third party service providers . 
+",[],"['Unilateral termination', 'Contract by using']","Unilateral termination, Contract by using"
+"academia.edu makes no effort to review any third party account content for any purpose , including but not limited to , for accuracy , legality or non-infringement and academia.edu is not responsible for any third party account content . 
+",[],[],Ninguna
+"we welcome and encourage you to provide feedback , comments and suggestions for improvements to the site or services ( `` feedback '' ) . 
+",[],[],Ninguna
+"you may submit feedback by emailing us at feedback@academia.eduor through the `` ideas '' section of the site . 
+",[],[],Ninguna
+"you acknowledge and agree that if you submit any feedback to us , you hereby grant to us a non-exclusive , worldwide , perpetual , irrevocable , fully-paid , royalty-free , sub-licensable and transferable license under any and all intellectual property rights that you own or control to use , copy , modify , create derivative works based upon and otherwise exploit the feedback for any purpose . 
+",[],[],Ninguna
+"you agree not to do any of the following : 
+",[],[],Ninguna
+"• post , upload , publish , submit or transmit any content that : ( i ) infringes , misappropriates or violates a third party 's patent , copyright , trademark , trade secret , moral rights or other intellectual property rights , or rights of publicity or privacy ; ( ii ) violates , or encourages any conduct that would violate , any applicable law or regulation or would give rise to civil liability ; ( iii ) is fraudulent , knowingly false , misleading or deceptive ; ( iv ) is defamatory , obscene , pornographic , vulgar or offensive ; ( v ) promotes discrimination , bigotry , racism , hatred , harassment or harm against any individual or group ; ( vi ) is violent or threatening or promotes violence or actions that are threatening to any person or entity ; or ( vii ) promotes illegal or harmful activities or substances ; 
+",[],[],"Ninguna, Ninguna, Ninguna, Ninguna, Ninguna, Ninguna, Ninguna, Ninguna"
+"• disclose information that you do not have the right to disclose ( such as confidential information of others ( including your employer ) ; 
+",[],[],"Confidential, Proprietary"
+"• use , display , mirror or frame the site , or any individual element within the site or services , academia.edu 's name , any academia.edu trademark , logo or other proprietary information , or the layout and design of any page or form contained on a page , without academia.edu 's express written consent ; 
+",[],"['Limitation of liability', 'Content removal', 'Choice of law']","Limitation of liability, Choice of law, Content removal"
+"• access , tamper with , or use non-public areas of the site , academia.edu 's computer systems , or the technical delivery systems of academia.edu 's providers ; 
+",[],[],Ninguna

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/mlruns/851658473927767666/5ea98f0500b045509cf0de5c6e138bd7/artifacts
+end_time: 1749266441778
+entry_point_name: ''
+experiment_id: '851658473927767666'
+lifecycle_stage: active
+run_id: 5ea98f0500b045509cf0de5c6e138bd7
+run_name: sedate-snake-293
+run_uuid: 5ea98f0500b045509cf0de5c6e138bd7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749266419587
+status: 3
+tags: []
+user_id: daniel

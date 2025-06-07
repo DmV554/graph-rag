@@ -1,0 +1,15 @@
+artifact_uri: file:///home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/mlruns/851658473927767666/5f7b425c1b5d4c638d5371ea3f3f599b/artifacts
+end_time: 1749269497632
+entry_point_name: ''
+experiment_id: '851658473927767666'
+lifecycle_stage: active
+run_id: 5f7b425c1b5d4c638d5371ea3f3f599b
+run_name: capable-lamb-272
+run_uuid: 5f7b425c1b5d4c638d5371ea3f3f599b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749269426782
+status: 4
+tags: []
+user_id: daniel

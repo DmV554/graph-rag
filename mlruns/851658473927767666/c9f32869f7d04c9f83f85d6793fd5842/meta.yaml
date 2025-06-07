@@ -1,0 +1,15 @@
+artifact_uri: file:///home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/mlruns/851658473927767666/c9f32869f7d04c9f83f85d6793fd5842/artifacts
+end_time: 1749270311720
+entry_point_name: ''
+experiment_id: '851658473927767666'
+lifecycle_stage: active
+run_id: c9f32869f7d04c9f83f85d6793fd5842
+run_name: beautiful-pug-182
+run_uuid: c9f32869f7d04c9f83f85d6793fd5842
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749270096267
+status: 3
+tags: []
+user_id: daniel

@@ -1,0 +1,1 @@
+{'name': 'lexglue', 'config': 'unfair_tos', 'split': 'test', 'text_field': 'text', 'label_field': 'labels', 'eval_samples': 200, 'output_csv': 'data/unfair_tos_data/test_rag_results.csv'}

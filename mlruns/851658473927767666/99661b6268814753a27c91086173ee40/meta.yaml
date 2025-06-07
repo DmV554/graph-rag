@@ -1,0 +1,15 @@
+artifact_uri: file:///home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/mlruns/851658473927767666/99661b6268814753a27c91086173ee40/artifacts
+end_time: 1749269835765
+entry_point_name: ''
+experiment_id: '851658473927767666'
+lifecycle_stage: active
+run_id: 99661b6268814753a27c91086173ee40
+run_name: whimsical-auk-39
+run_uuid: 99661b6268814753a27c91086173ee40
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749269788314
+status: 3
+tags: []
+user_id: daniel

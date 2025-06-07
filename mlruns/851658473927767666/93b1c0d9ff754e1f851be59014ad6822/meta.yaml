@@ -1,0 +1,15 @@
+artifact_uri: file:///home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/mlruns/851658473927767666/93b1c0d9ff754e1f851be59014ad6822/artifacts
+end_time: 1749270084918
+entry_point_name: ''
+experiment_id: '851658473927767666'
+lifecycle_stage: active
+run_id: 93b1c0d9ff754e1f851be59014ad6822
+run_name: persistent-foal-798
+run_uuid: 93b1c0d9ff754e1f851be59014ad6822
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749270074280
+status: 4
+tags: []
+user_id: daniel

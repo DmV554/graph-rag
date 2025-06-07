@@ -1,0 +1,15 @@
+artifact_uri: file:///home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/mlruns/851658473927767666/ef97f089402e48ad88f2ffcf65d6ad79/artifacts
+end_time: 1749269636864
+entry_point_name: ''
+experiment_id: '851658473927767666'
+lifecycle_stage: active
+run_id: ef97f089402e48ad88f2ffcf65d6ad79
+run_name: dazzling-grouse-140
+run_uuid: ef97f089402e48ad88f2ffcf65d6ad79
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749269520960
+status: 3
+tags: []
+user_id: daniel
